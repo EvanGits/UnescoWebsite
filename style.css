@@ -1,0 +1,629 @@
+@font-face {
+    font-family: "neauemontreal";
+    src: url(fonts/neuemontreal/PPNeueMontreal-Bold.otf);
+}
+@font-face {
+    font-family: "zerafoc";
+    src: url(fonts/zerafoc/Zerafoc-Italic.ttf);
+}
+
+body{
+    background-color: #180035;
+    color: white;
+}
+.text-kleur{
+    color: #121212;
+}
+
+.beginlijn-class {
+    max-width: 200%; /* Set the maximum width of the image */
+    width: 140%; /* Make the image responsive */
+    height: 145%; /* Make the image responsive */ /* Remove any default inline styles */
+    margin-left: 8%; /* Center the image horizontally */
+}
+.heldenlijn-class {
+    max-width: 300%; /* Set the maximum width of the image */
+    width: 140%; /* Make the image responsive */
+    height: 200%; /* Make the image responsive */
+    display: block; /* Remove any default inline styles */
+    margin-left: 8%; /* Center the image horizontally */
+}
+.eindlijn-class{
+    max-width: 300%; /* Set the maximum width of the image */
+    width: 140%; /* Make the image responsive */
+    height: 200%; /* Make the image responsive */
+    display: block; /* Remove any default inline styles */
+    margin-left: 8%; /* Center the image horizontally */
+}
+.karakters-einde{
+    width: 150%;
+}
+.b-background{
+    background-color: #c52929;
+    height: 12%;
+    width: 57%;
+}
+.bb-background{
+    background-color: #e23535;
+}
+.b-background1{
+    background-color: #8f29ca;
+    height: 12%;
+    width: 65%;
+}
+.bb-background1{
+    background-color: #a93ce8;
+}
+.b-background2{
+    background-color: #8f29ca;
+    height: 12%;
+    width: 50%;
+}
+.bb-background2{
+    background-color: #a93ce8 ;
+}
+.b-background3{
+    background-color: #a3e06d;
+    height: 12%;
+    width: 50%;
+}
+.bb-background3{
+    background-color: #c2f496 ;
+}
+.b-background4{
+    background-color: #fbde5f;
+    height: 12%;
+    width: 50%;
+}
+.bb-background4{
+    background-color: #dfcb6e ;
+}
+.b-background5{
+    background-color: #ff75b8;
+    height: 12%;
+    width: 50%;
+}
+.bb-background5{
+    background-color: #ff85c0 ;
+}
+.b-background6{
+    background-color: #89d8ff;
+    height: 12%;
+    width: 50%;
+}
+.bb-background6{
+    background-color: #b9e8ff ;
+}
+
+.btn-quiz{
+    background-color: #89b067;
+    color: white;
+    padding: 3% 2% 3% 2%;
+}
+.portaal-class{
+  width: 121%;
+  height: 56%;
+}
+.overgang-class{
+    max-width: 300%;
+    width: 140%;
+    height: 200%;
+    display: block;
+    margin-bottom: 200%;
+}
+.txt-button{
+    font-size: 1vh;
+}
+.ster-flip{
+   transform: scaleX(-1);
+}
+.ster-rotate{
+    transform: rotate(80deg);
+}
+.veel-sterren{
+    width: 70%;
+    height: 70%;
+}
+.heartbeat-img {
+    animation-name: heartbeat;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  .heartbeat-tekst {
+    animation-name: heartbeat;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+.image1 
+{
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 4px;
+    display: block;
+    margin: 0.5em auto;
+    margin-right: 1px;
+    width: 75%;
+    float: left;
+}
+/*
+.image2
+{
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 4px;
+    display: block;
+    margin: 0.5em auto;
+    margin-right: 1px;
+    margin-left: 0;
+    width: 200px;
+    float: left;
+}
+.image3
+{
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 4px;
+    display: block;
+    margin: 0.5em auto;
+    margin-right: 1px;
+    margin-left: 0;
+    width: 200px;
+    float: left;
+}
+.image4
+{
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 4px;
+    display: block;
+    margin: 0.5em auto;
+    margin-right: 1px;
+    margin-left: 0;
+    width: 200px;
+    float: left;
+}
+.image5
+{
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 4px;
+    display: block;
+    margin: 0.5em auto;
+    margin-right: 1px;
+    margin-left: 0;
+    width: 200px;
+    float: left;
+}
+.image6
+{
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 4px;
+    display: block;
+    margin: 0.5em auto;
+    margin-right: 1px;
+    margin-left: 0;
+    width: 200px;
+    float: left;
+}
+*/
+.overgang-class {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; /* set z-index higher than other elements */
+  }
+  #text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #text1, #text2 {
+    font-size: 48px;
+    font-weight: bold;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInSlow {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes fadeInFast {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .banner {
+    width: 130%;
+  }
+
+  .rotate {
+    width: 20%;
+    height: 100%;
+  }
+
+  .guardian-tekst{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 65px;
+    color: white;
+    -webkit-text-stroke: 3px #121212;
+  }
+  .guardian-tekst2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+  }
+
+  @property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --card-height: 90vh;
+    --card-width: calc(var(--card-height) / 2.6);
+  }
+
+  .card {
+    background-color: transparent;
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: 3px;
+    border-radius: 6px;
+    display: flex;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+
+  .card::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #c1ff7b, #cbff53 43%, yellow);
+      position: absolute;
+      top: -1%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+  }
+  
+  .card::after {
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(2);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+      var(--rotate)
+      , #c1ff7b, #80e24f 43%, yellow);
+      opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+  }
+
+.quiz-vraag{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.button {
+    font-size: 35px;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 95%;
+    text-align: center;
+    background-color: #4d3cff;
+    border: 1px solid #191e48;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.button2{
+    font-size: 35px;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 50%;
+    text-align: center;
+    background-color: #190e8a;
+    border: 1px solid #191e48;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-top: 35px;
+
+}
+
+.form-check{
+    align-items: center;
+}
+
+input[type="radio"]:checked + .button {
+    background-color: #1f2a81;
+}
+
+
+.image-wrapper {
+    overflow: hidden;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+@keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+/*Bovenste is voor Raeve card*/
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+.card1 {
+  background-color: transparent;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  border-radius: 6px;
+  display: flex;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.card1::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate)
+    ,#dcb54191 ,  #f0b810be 43%, orange);
+    position: absolute;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.card1::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(2);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate)
+    , yellow,#f8c210 43%, orange );
+    opacity: 1;
+  transition: opacity .5s;
+  animation: spin 2.5s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+/*Bovenste is voor Tianat card*/
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+.card2 {
+  background-color: transparent;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  border-radius: 6px;
+  display: flex;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.card2::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate)
+    ,#ffbfc3 ,  #ff8991 43%, #ff535e);
+    position: absolute;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.card2::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(2);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate)
+    , #ffbfc3,#ff8991 43%, #ff535e );
+    opacity: 1;
+  transition: opacity .5s;
+  animation: spin 2.5s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+/*Bovenste is voor Rob card */
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+.card3 {
+  background-color: transparent;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  border-radius: 6px;
+  display: flex;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.card3::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate)
+    ,#ade1fe ,  #b6c6fe 43%, #4cb9f3);
+    position: absolute;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.card3::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(2);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate)
+    , #b6c6fe,#2cca709f ,#ade1fe 43%, #4cb9f3 );
+    opacity: 1;
+  transition: opacity .5s;
+  animation: spin 2.5s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+/*Bovenste is voor Emily card */
+
+
+  /* Het navigatie menu zelf */
+.sidenav
+{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #280059;
+    overflow-x: hidden;
+    transition: 0.25s;
+    padding-top: 60px;
+    z-index: 1;
+}
+/* De text binnen het navigatiemenu */
+.sidenav a
+{
+    padding: 10px 8px 8px 32px;
+    text-decoration: none;
+    display: block;
+    transition: 0.25s;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+/* De knop om het menu te sluiten */
+.sidenav #closebutton
+{
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    margin-right: 0;
+    font-size: 80px;
+} 
+
+.image2
+{
+    margin-left: auto;
+    background: transparent;
+    display: block;
+    width: 100%;
+}
+
+.helden-link-pagina{
+  color: white;
+  font-size: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+a:visited{
+  color: white;
+}
