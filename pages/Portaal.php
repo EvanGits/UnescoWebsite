@@ -86,7 +86,7 @@ include "../includes/Hamburger.php";
     {
         cursor: pointer;
     }
-    .txt-button
+    .txt-button, h1
     {
         padding: 10px;
     }
