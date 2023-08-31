@@ -3,8 +3,8 @@
     include "../includes/Hamburger.php";
 ?>
 <main>
-<div class="container col-12">
-  <div class="card4 position-absolute mt-4">
+<div class="container col-12 background_new">
+  
   </div>
      <div class="col-12 mt-5"><br><p style="font-size:100px;"><strong><em>De makers</em></strong></p>
     <div class="row mt-5">
@@ -98,6 +98,16 @@
 }
 
 
+.background_new
+{
+    flex: 0 0 auto;
+    width: 100%;
+    background-color: #ffffff00;
+    background-image: linear-gradient( var(--rotate) , #4942E4,#C4B0FF 150%,#8696FE 120%,#0C134F 120% );
+    animation: spin 2.5s linear infinite;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
 
 @keyframes spin {
   0% {
