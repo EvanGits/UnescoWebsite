@@ -82,6 +82,14 @@ include "../includes/Hamburger.php";
         transform: rotateY(1800deg);
     }
 }
+
+img#RobImage
+/*img#BohrImage*/
+{
+    width: 75%;
+    height: auto;
+    max-width: 100%;
+}
 </style>
 
 <script>
@@ -150,6 +158,7 @@ function Spinny3() {
     } else {
         Image1.classList.add("spinny");
         Image1.classList.add("Rob");
+
     setTimeout(() => {
         Image1.src="<?= ROOT ?>images/bohr.png";
         Image1.classList.remove("spinny");
@@ -158,7 +167,7 @@ function Spinny3() {
     }
     setTimeout(() => {
         Image1.classList.remove("spinny2");
-    }, 5000);    
+    }, 5000);
 }
 
 function Spinny4() {

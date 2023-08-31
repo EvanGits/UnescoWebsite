@@ -96,7 +96,7 @@ body{
 }
 
 .btn-quiz{
-    background-color: #89b067;
+    background-color: black;
     color: white;
     padding: 3% 2% 3% 2%;
 }
@@ -595,8 +595,10 @@ input[type="radio"]:checked + .button {
     text-decoration: none;
     display: block;
     transition: 0.25s;
-    font-size: 40px;
+    font-size: 65px;
     color: #ffffff;
+   
+
 }
 
 /* De knop om het menu te sluiten */
@@ -606,7 +608,7 @@ input[type="radio"]:checked + .button {
     top: 40px;
     right: 25px;
     margin-right: 0;
-    font-size: 80px;
+    font-size: 110px;
 } 
 
 .image2

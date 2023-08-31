@@ -4,20 +4,20 @@
 ?>
 <main>
 <div class="container col-12 background_new">
-  
+  <div class="card4 position-absolute mt-4">
   </div>
      <div class="col-12 mt-5"><br><p style="font-size:100px;"><strong><em>De makers</em></strong></p>
     <div class="row mt-5">
         <div class="col-6"><img class="image1" src="<? echo ROOT ?>images/portretBerend.png"></div>
-        <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hallo mensen! Mijn naam is Berend Beerendonk, ik ben een 21 jarige student 
+        <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hallo mensen! Mijn naam is Berend Beerendonk, ik ben een 21 jarige student
             Software Development op het KW1C en ik heb mijn eind-stage gelopen bij het Productiehuis. Ik heb voor dit project
-                veel gepland en code geschreven, ik was projectleider voor de groep programmeurs. Ik was verantwoordelijk voor het 
+                veel gepland en code geschreven, ik was projectleider voor de groep programmeurs. Ik was verantwoordelijk voor het
                 start pagina, portaal en helden pagina's, wat ik het leuks vond was het maken van de animatie voor de pagina.</em> </p>
         </div>
-    </div> 
+    </div>
 
     <div class="row mt-5">
-        <div class="col-6"><br> <p style="font-size:25px;"><em>Hey! Mijn naam is Yahye Mohamed, ik ben een 19 jarige student Software Development 
+        <div class="col-6"><br> <p style="font-size:25px;"><em>Hey! Mijn naam is Yahye Mohamed, ik ben een 19 jarige student Software Development
             op het KW1C en ik heb mijn eind-stage gelopen bij het Productiehuis. Voor dit project heb ik veel code geschreven, bijvoorbeeld 
             voor het quiz systeem. Ik heb ook veel lopen mee denken aan manieren waarop we de app zo gebruikersvriendelijk en 
             aantrekkelijk mogelijk konden maken.</em> </p>
@@ -72,42 +72,16 @@
     --card-width: calc(var(--card-height) / 2.3);
   }
 
-.card4 {
-  background-color: transparent;
-  width: var(--card-width);
-  height: var(--card-height);
-  border-radius: 6px;
-  display: flex;
-  font-size: 5em;
-  cursor: pointer;
-}
-
-.card4::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  background-image: linear-gradient(
-    var(--rotate)
-    , #4942E4,#C4B0FF 150%,#8696FE 120%,#0C134F 120% );
-    position: absolute;
-    top: -1%;
-    left: -2%;
-    animation: spin 2.5s linear infinite;
-    z-index: -1;
-}
-
 
 .background_new
 {
-    flex: 0 0 auto;
-    width: 100%;
     background-color: #ffffff00;
     background-image: linear-gradient( var(--rotate) , #4942E4,#C4B0FF 150%,#8696FE 120%,#0C134F 120% );
     animation: spin 2.5s linear infinite;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
+
 
 @keyframes spin {
   0% {
