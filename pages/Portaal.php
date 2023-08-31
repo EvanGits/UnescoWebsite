@@ -65,7 +65,7 @@ include "../includes/Hamburger.php";
                         </p>                           
                 </div>
         </p>
-                <button style="position: absolute; margin-top: 400%; font-size: 300%;" class="btn btn-quiz" onclick="window.location.href = 'Quiz.php';">Ontdek je Innerlijke Held</button>
+                <button style="position: absolute; margin-top: 400%; font-size: 300%; " class="btn btn-quiz" onclick="window.location.href = 'Quiz.php';">Ontdek je Innerlijke Held</button>
                 <img src="<?= ROOT ?>images/heldenlijn.png" class="heldenlijn-class img-fluid" style="margin-top: 4%;">            
         </div>
         <div class="col-12 col-lg-6 mx-5 d-flex justify-content-center" style="margin-top: 131%;">
@@ -76,12 +76,16 @@ include "../includes/Hamburger.php";
         </div>
   </div>
 </main>
+<style>
+    .btn-quiz:hover
+    {
+        background-color: #abd085;
+        color: white;
+    }
+</style>
 <script>
         document.querySelector('#duurzaam').classList.remove('show');
         document.querySelector('#vrede').classList.remove('show');
         document.querySelector('#cultuur').classList.remove('show');
         document.querySelector('#wereld').classList.remove('show');
 </script>
-<?php
-include "includes/footer.php"
-?>
