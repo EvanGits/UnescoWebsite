@@ -86,6 +86,10 @@ include "../includes/Hamburger.php";
     {
         cursor: pointer;
     }
+    .txt-button
+    {
+        padding: 10px;
+    }
 </style>
 <script>
         document.querySelector('#duurzaam').classList.remove('show');

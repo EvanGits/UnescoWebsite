@@ -136,6 +136,3 @@ include "../includes/Hamburger.php";
     }
     </script>
 </main>
-<?php
-include "includes/footer.php"
-?>
