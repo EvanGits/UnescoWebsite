@@ -82,6 +82,14 @@ include "../includes/Hamburger.php";
         background-color: #abd085;
         color: white;
     }
+    .heartbeat-img
+    {
+        cursor: pointer;
+    }
+    .txt-button, h1
+    {
+        padding: 10px;
+    }
 </style>
 <script>
         document.querySelector('#duurzaam').classList.remove('show');
