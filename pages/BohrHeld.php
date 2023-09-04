@@ -13,39 +13,39 @@ include "../includes/Hamburger.php";
             <div class="col-4">
                     <img style="margin-left: 105%;" class="banner" src="<?= ROOT ?>images/bannerroze.png">
                 <div class="card2" style="position: absolute; margin-left: 20%; margin-top: 40%;">
-                </div> 
+                </div>
             </div>
-            <div style="position: absolute; font-size: 50px; margin-left: 86.5%; margin-top: 120%;">
+            <div class="new_background_bhor" style="position: absolute; font-size: 50px; margin-left: 70.5%; margin-top: 120%;">
                 <h1 style="margin-left: 20%;" class="guardian-tekst2"><i>Dit is Bohr</i></h1>
                 <p class="mt-5" style="font-size: 41px;">
-                    student Leidinggevende travel <br> 
-                    en hospitality. Tijdens de lunchpauze<br> 
-                    op school ziet hij dat een klasgenoot <br> 
-                    wordt gepest vanwege zijn Aziatische<br> 
+                    Student Leidinggevende travel
+                    en hospitality. Tijdens de lunchpauze
+                    op school ziet hij dat een klasgenoot
+                    wordt gepest vanwege zijn Aziatische
                     afkomst.  
                 </p>
                 <p style="font-size: 41px;">
-                    Rob heeft een hekel aan <br> 
-                    discriminatie en buitensluiten hij komt <br> 
-                    daarom in actie. Wanneer Rob de <br>
-                    pestkop aan wil spreken op zijn gedrag <br>
-                    voelt Rob een krachtig gevoel in zijn <br> 
-                    borst opwellen en ziet hij een fel licht <br> 
+                    Rob heeft een hekel aan
+                    discriminatie en buitensluiten hij komt
+                    daarom in actie. Wanneer Rob de
+                    pestkop aan wil spreken op zijn gedrag
+                    voelt Rob een krachtig gevoel in zijn
+                    borst opwellen en ziet hij een fel licht
                     om zich heen. 
                 </p>
                 <p style="font-size: 41px;">
-                    Wanneer hij de pester <br> 
-                    aanraakt bij zijn schouder blijkt Rob <br> 
-                    te zijn veranderd in Bohr, een superheld <br> 
-                    met ‘teleportatiekrachten'.  Op deze <br> 
-                    manier neemt hij de pestkop mee naar <br> 
-                    een andere cultuur en kan zo laten zien <br> 
-                    hoe mooi en interessant andere culturen<br> 
-                    zijn. Bohr laat de pester een tijd achter in <br> 
-                    Japan. Daarna teleporteert Bohr de <br> 
-                    jongen terug. Na deze ervaring blijkt hij <br> 
-                    meer begrip te hebben voor mensen <br>
-                    met een andere culturele achtergrond <br> 
+                    Wanneer hij de pester
+                    aanraakt bij zijn schouder blijkt Rob
+                    te zijn veranderd in Bohr, een superheld
+                    met ‘teleportatiekrachten'.  Op deze
+                    manier neemt hij de pestkop mee naar
+                    een andere cultuur en kan zo laten zien
+                    hoe mooi en interessant andere culturen
+                    zijn. Bohr laat de pester een tijd achter in
+                    Japan. Daarna teleporteert Bohr de
+                    jongen terug. Na deze ervaring blijkt hij
+                    meer begrip te hebben voor mensen
+                    met een andere culturele achtergrond
                     dan de zijne.  
                 </p>
             </div>
@@ -69,7 +69,8 @@ include "../includes/Hamburger.php";
             animation: spinY 2.5s ease-out 1.5s;
         } 
 
-        @keyframes spinY {
+        @keyframes spinY
+        {
             0% {
                 transform: rotateY(0deg);
             }
@@ -77,6 +78,19 @@ include "../includes/Hamburger.php";
                 transform: rotateY(1800deg);
             }
         }
+        .new_background_bhor
+        {
+            border-radius: 8px;
+            background-image: linear-gradient( var(--rotate) ,#ffbfc3 , #ff8991 43%, #ff535e);
+            width: 80%;
+            padding: 30px;
+            animation: spin 2.5s linear infinite;
+        }
+        .card2::before
+        {
+            content: none;
+        }
+
     </style>
     <script>
         function fadeEffect(element, duration) {

@@ -78,8 +78,7 @@
     background-color: #ffffff00;
     background-image: linear-gradient( var(--rotate) , #4942E4,#C4B0FF 150%,#8696FE 120%,#0C134F 120% );
     animation: spin 2.5s linear infinite;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-radius: 20px;
 }
 
 
@@ -91,7 +90,11 @@
     --rotate: 360deg;
   }
 }
+.col-12
+{
+    margin-bottom: 70px;
+}
 </style>
 <?php
-include "includes/footer.php"
+    include "includes/footer.php"
 ?>

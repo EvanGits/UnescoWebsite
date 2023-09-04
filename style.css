@@ -10,6 +10,7 @@
 body{
     background-color: #180035;
     color: white;
+    overflow-x: hidden;
 }
 .text-kleur{
     color: #121212;
@@ -151,7 +152,7 @@ body{
   }
 
 
-.image1 
+.image1
 {
     background: transparent;
     border: 3px solid white;
@@ -238,24 +239,24 @@ body{
     align-items: center;
     height: 100vh;
   }
-  
+
   #text1, #text2 {
     font-size: 48px;
     font-weight: bold;
     opacity: 0;
     animation-fill-mode: forwards;
   }
-  
+
   @keyframes fadeInSlow {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-  
+
   @keyframes fadeInFast {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-  
+
   .banner {
     width: 130%;
   }
@@ -281,7 +282,7 @@ body{
     initial-value: 132deg;
     inherits: false;
   }
-  
+
   :root {
     --card-height: 90vh;
     --card-width: calc(var(--card-height) / 2.6);
@@ -299,19 +300,9 @@ body{
   }
 
   .card::before {
-    content: "";
-    width: 104%;
-    height: 102%;
-    border-radius: 8px;
-    background-image: linear-gradient(
-      var(--rotate)
-      , #c1ff7b, #cbff53 43%, yellow);
-      position: absolute;
-      top: -1%;
-      left: -2%;
-      animation: spin 2.5s linear infinite;
+    content: none;
   }
-  
+
   .card::after {
     position: absolute;
     content: "";
@@ -470,19 +461,7 @@ input[type="radio"]:checked + .button {
   cursor: pointer;
 }
 
-.card2::before {
-  content: "";
-  width: 104%;
-  height: 102%;
-  border-radius: 8px;
-  background-image: linear-gradient(
-    var(--rotate)
-    ,#ffbfc3 ,  #ff8991 43%, #ff535e);
-    position: absolute;
-    top: -1%;
-    left: -2%;
-    animation: spin 2.5s linear infinite;
-}
+
 
 .card2::after {
   position: absolute;
@@ -530,19 +509,7 @@ input[type="radio"]:checked + .button {
   cursor: pointer;
 }
 
-.card3::before {
-  content: "";
-  width: 104%;
-  height: 102%;
-  border-radius: 8px;
-  background-image: linear-gradient(
-    var(--rotate)
-    ,#ade1fe ,  #b6c6fe 43%, #4cb9f3);
-    position: absolute;
-    top: -1%;
-    left: -2%;
-    animation: spin 2.5s linear infinite;
-}
+
 
 .card3::after {
   position: absolute;
@@ -597,7 +564,7 @@ input[type="radio"]:checked + .button {
     transition: 0.25s;
     font-size: 65px;
     color: #ffffff;
-   
+
 
 }
 
@@ -609,7 +576,7 @@ input[type="radio"]:checked + .button {
     right: 25px;
     margin-right: 0;
     font-size: 110px;
-} 
+}
 
 .image2
 {
@@ -623,7 +590,7 @@ input[type="radio"]:checked + .button {
   color: white;
   font-size: 60px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
+
 }
 
 a:visited{
