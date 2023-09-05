@@ -8,10 +8,10 @@ include "../includes/Hamburger.php";
             <h1 style="position:absolute; margin-top: 30%; margin-left: 15%;" class="guardian-tekst2"><strong>Intercultureel</strong></h1>
             <h1 style="position:absolute; margin-top: 37%; margin-left: 15%;" class="guardian-tekst2"><strong><i>Rob/Bohr</i></strong></h1>
             <div class="col-8 d-flex justify-content-center align-items-center">
-                <img id="BohrImage" class="raeve"  src="<?= ROOT ?>images/bohr.png" style=" margin-top: 200%;">
+                <img id="BohrImage" class="raeve"  src="<?= ROOT ?>images/Bohr.png" style=" margin-top: 200%;">
             </div>
             <div class="col-4">
-                    <img style="margin-left: 105%;" class="banner" src="<?= ROOT ?>images/bannerroze.png">
+                    <img style="margin-left: 105%;" class="banner" src="<?= ROOT ?>images/bannerRoze.png">
                 <div class="card2" style="position: absolute; margin-left: 20%; margin-top: 40%;">
                 </div>
             </div>
@@ -51,10 +51,10 @@ include "../includes/Hamburger.php";
             </div>
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center">              
-            <img onclick="Spinny()"class="rotate heartbeat-img" src="<?= ROOT ?>images/rotate.png" style="margin-right: 35%;">    
+            <img onclick="Spinny()"class="rotate heartbeat-img" src="<?= ROOT ?>images/rotate.png" style="margin-right: 35%;">
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center text-center" style="margin-left: 30%;">
-            <a id="helden-link" class="helden-link-pagina" href="helden" style="margin-top: 40%;"><strong>klik hier voor alle helden!</strong></a>
+            <a id="helden-link" class="helden-link-pagina" href="Helden.php" style="margin-top: 40%;"><strong>klik hier voor alle helden!</strong></a>
         </div>
     </div>
     <style>
@@ -125,7 +125,7 @@ include "../includes/Hamburger.php";
     setInterval(() => {
         fadeEffect(link, duration);
     }, duration * 2);
-    
+
     function Spinny() {
     var Image1 = document.getElementById("BohrImage");
 
@@ -141,7 +141,7 @@ include "../includes/Hamburger.php";
         Image1.classList.add("spinny");
         Image1.classList.add("Bohr");
     setTimeout(() => {
-        Image1.src="<?= ROOT ?>images/Rob.png";
+        Image1.src="<?= ROOT ?>images/rob.png";
         Image1.classList.remove("spinny");
         Image1.classList.add("spinny2");
     }, 2500);
@@ -149,7 +149,7 @@ include "../includes/Hamburger.php";
     setTimeout(() => {
         Image1.classList.remove("spinny2");
     }, 5000);
-    
+
     }   
     </script>
 </main>
