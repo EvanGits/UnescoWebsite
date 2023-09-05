@@ -97,7 +97,7 @@ body{
 }
 
 .btn-quiz{
-    background-color: black;
+    background-color: #89b067;
     color: white;
     padding: 3% 2% 3% 2%;
 }
@@ -297,11 +297,17 @@ body{
     display: flex;
     font-size: 1.5em;
     cursor: pointer;
+      border: none;
   }
 
-  .card::before {
-    content: none;
-  }
+.New_background_Reave
+{
+    border-radius: 8px;
+    background-image: linear-gradient(
+            var(--rotate), #c1ff7b, #80e24f 43%, yellow);
+    width: 80%;
+    animation: spin 2.5s linear infinite;
+}
 
   .card::after {
     position: absolute;
@@ -401,19 +407,15 @@ input[type="radio"]:checked + .button {
   cursor: pointer;
 }
 
-.card1::before {
-  content: "";
-  width: 104%;
-  height: 102%;
-  border-radius: 8px;
-  background-image: linear-gradient(
-    var(--rotate)
-    ,#dcb54191 ,  #f0b810be 43%, orange);
-    position: absolute;
-    top: -1%;
-    left: -2%;
+.New_background_Tianat
+{
+    border-radius: 8px;
+    background-image: linear-gradient(
+            var(--rotate), #dcb54191 ,  #f0b810be 43%, orange);
+    width: 80%;
     animation: spin 2.5s linear infinite;
 }
+
 
 .card1::after {
   position: absolute;
@@ -508,9 +510,14 @@ input[type="radio"]:checked + .button {
   font-size: 1.5em;
   cursor: pointer;
 }
-
-
-
+.New_background_Limey
+{
+    border-radius: 8px;
+    background-image: linear-gradient(
+            var(--rotate), #b6c6fe, #ade1fe 43%, #4cb9f3);
+    width: 80%;
+    animation: spin 2.5s linear infinite;
+}
 .card3::after {
   position: absolute;
   content: "";
