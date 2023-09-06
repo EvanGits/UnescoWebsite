@@ -1,6 +1,6 @@
 <?php
-include "../includes/header.php";
-include "../includes/Hamburger.php";
+    include "../includes/header.php";
+    include "../includes/Hamburger.php";
 ?>
 <main>
        
@@ -12,11 +12,12 @@ include "../includes/Hamburger.php";
         <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute; margin-left: 40%;">
         <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;">
     <div class="row"> 
-              
-        <div class="col-12 mx-5 d-flex justify-content-center">
-                <img src="<?= ROOT ?>images/portaaluitgang.png" style="position: absolute;" class="img-fluid">
-                <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;">
-        </div>              
+        <a href="">
+            <div class="col-12 mx-5 d-flex justify-content-center">
+                    <img src="<?= ROOT ?>images/portaaluitgang.png" style="position: absolute;" class="img-fluid">
+                    <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;">
+            </div>
+        </a>
         <div class="col-12 col-lg-6 mx-5 d-flex justify-content-center text-kleur">
         <!--Buttons met informatie-->
         <p>
