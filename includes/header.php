@@ -2,23 +2,9 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-// verwijzing naar root folder
-
-if(!isset($_SERVER['SCRIPT_URI'])){
-    $_SERVER['SCRIPT_URI'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ? 'https://' : 'http://').$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-
-    $pos = strrpos($_SERVER['SCRIPT_URI'],'/');
-    if($pos!==false) {
-        $_SERVER['SCRIPT_URI'] = substr($_SERVER['SCRIPT_URI'], 0, $pos+1);
-    }
-}
-=======
 // basis verwijzing
 const ROOT = "http://localhost/UnescoWebsite/";
->>>>>>> main
 
-const ROOT = "https://unesco.mapmedia.nu/";
 // classes
 //require_once("classes/Pages.php");
 //require_once("classes/DBConn.php");
@@ -44,7 +30,5 @@ session_start();
     <link rel="stylesheet" href="<?= ROOT ?>style.css">
 
     <title>UNESCO Guardians</title>
-
-    
 </head>
 <body>
