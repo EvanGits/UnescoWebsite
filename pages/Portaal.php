@@ -12,7 +12,7 @@
         <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute; margin-left: 40%;">
         <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;">
     <div class="row"> 
-        <a href="">
+        <a href="../index.php">
             <div class="col-12 mx-5 d-flex justify-content-center">
                     <img src="<?= ROOT ?>images/portaaluitgang.png" style="position: absolute;" class="img-fluid">
                     <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;">
