@@ -4,7 +4,7 @@
 	<a href="javascript:void(0)" id="closebutton" onclick="Close()">&times;</a>	
 	<div style="margin-top: 20%;">
 		<!-- Verwijzingen naar de andere pagina's / sites -->
-		<a href="<?= ROOT ?>index.php">Hoofdpagina</a>
+		<a href="<?= ROOT ?>">Hoofdpagina</a>
 		<a style="color: #B2BEB5;" href="<?= ROOT ?>pages/Quiz.php">Ontdek je Innerlijke Held</a>
 		<a href="https://sdgs.un.org/goals" target="_blank">Unesco klimaatdoelen</a>
 		<a style="color: #B2BEB5;" href="<?= ROOT ?>pages/Helden.php">Helden</a>
