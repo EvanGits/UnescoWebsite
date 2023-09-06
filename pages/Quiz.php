@@ -206,7 +206,7 @@ if($quizEnded){
             ?>
                 <div style="text-align: center;">
                     <button class="button2 form-check" type="submit">Volgende</button>
-                    <a href="../index.php" style="font-size: 35px; display: inline-block;padding: 10px 20px;width: 50%;    text-align: center; background-color: #190e8a; border: 1px solid #191e48; border-radius: 10px; cursor: pointer; color: white; margin-top: 35px; ">Home</a>
+                    <a href="../index.php" style="font-size: 35px; display: inline-block;padding: 10px 20px;width: 50%;    text-align: center; background-color: #190e8a; border: 1px solid #191e48; border-radius: 10px; cursor: pointer; color: white; margin-top: 35px; text-decoration: none">Home</a>
                 </div>
 
             </div>

@@ -18,8 +18,9 @@
                     <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;">
             </div>
         </a>
-        <div class="col-12 col-lg-6 mx-5 d-flex justify-content-center text-kleur">
+        <div class="col-12 col-lg-6 mx-5 d-flex justify-content-center text-kleur" >
         <!--Buttons met informatie-->
+
         <p>
                 <img src="<?= ROOT ?>images/duurzaamheid_icoon.png" class="heartbeat-img" style="position: absolute; margin-top: 40%; margin-left: 45%;" data-toggle="collapse" data-target="#duurzaam">
                 <div class="b-background3 collapse show" style="position: absolute; margin-top: 55%; margin-right: 50%;" id="duurzaam">
@@ -91,6 +92,7 @@
     {
         padding: 10px;
     }
+
 </style>
 <script>
         document.querySelector('#duurzaam').classList.remove('show');
