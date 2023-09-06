@@ -103,7 +103,7 @@ body{
 }
 .portaal-class{
   width: 121%;
-  height: 56%;
+  height: auto;
 }
 .overgang-class{
     max-width: 300%;
@@ -608,4 +608,3 @@ input[type="radio"]:checked + .button {
 a:visited{
   color: white;
 }
-
