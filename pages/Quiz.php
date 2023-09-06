@@ -1,4 +1,5 @@
 <?php
+
 // Define the questions and their corresponding points for each category
 const ROOT = "https://unesco.mapmedia.nu/";
 session_start();
@@ -166,11 +167,12 @@ if($quizEnded){
 
     <title>UNESCO Guardians</title>
 </head>
+
 <!-- Quiz form -->
 <body>
 <div class="col-12 quiz" style="position: relative;">
     <div class="image-wrapper" style="position: relative; overflow: hidden; pointer-events: none;">
-        <img src="<?= ROOT ?>images/overgang.png" class="quiz-image" style="width: 100%; height: auto;">
+        <img src="../images/Overgang-1.png" class="quiz-image" style="width: 100%; height: auto;">
     </div>
     <?php if ($quizEnded) :
         echo $url = "$winningCategory.php";
@@ -204,7 +206,9 @@ if($quizEnded){
             ?>
                 <div style="text-align: center;">
                     <button class="button2 form-check" type="submit">Volgende</button>
+                    <a href="../index.php" style="font-size: 35px; display: inline-block;padding: 10px 20px;width: 50%;    text-align: center; background-color: #190e8a; border: 1px solid #191e48; border-radius: 10px; cursor: pointer; color: white; margin-top: 35px; ">Home</a>
                 </div>
+
             </div>
         </form>
     <?php endif; ?>
