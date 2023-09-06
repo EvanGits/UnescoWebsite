@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 // verwijzing naar root folder
 
 if(!isset($_SERVER['SCRIPT_URI'])){
@@ -12,6 +13,10 @@ if(!isset($_SERVER['SCRIPT_URI'])){
         $_SERVER['SCRIPT_URI'] = substr($_SERVER['SCRIPT_URI'], 0, $pos+1);
     }
 }
+=======
+// basis verwijzing
+const ROOT = "http://localhost/UnescoWebsite/";
+>>>>>>> main
 
 const ROOT = "https://unesco.mapmedia.nu/";
 // classes
