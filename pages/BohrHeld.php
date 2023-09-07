@@ -72,20 +72,26 @@ include "../includes/Hamburger.php";
         @keyframes spinY
         {
             0% {
-                transform: rotateY(0deg);
+                transform: rotate(0deg);
             }
             100% {
-                transform: rotateY(1800deg);
+                transform: rotate(360deg);
             }
         }
         .new_background_bhor
         {
             border-radius: 8px;
-            background-image: linear-gradient( var(--rotate) ,#ffbfc3 , #ff8991 43%, #ff535e);
+            background-image: linear-gradient(var(--rotate) ,#ffbfc3 , #ff8991 43%, #ff535e);
             width: 80%;
             padding: 30px;
             animation: spin 2.5s linear infinite;
+
         }
+
+        :root {
+            --rotate: 45deg;
+        }
+
         .card2::before
         {
             content: none;
