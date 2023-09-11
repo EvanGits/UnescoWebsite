@@ -11,7 +11,7 @@ include "../includes/Hamburger.php";
                 <img id="TianatImage" src="<?= ROOT ?>images/tianat.png" style=" margin-top: 200%; margin-left: 10%;">
             </div>
             <div class="col-4">
-                <img style="margin-left: 105%;" class="banner" src="<?= ROOT ?>images/banneroranje.png">
+                <img style="margin-left: 105%;" class="banner" src="../images/banneroranje.png">
                 <div class="card1" style="position: absolute; margin-left: 20%; margin-top: 40%;">
                 </div> 
             </div>
@@ -49,7 +49,7 @@ include "../includes/Hamburger.php";
             <img onclick="Spinny()" class="rotate heartbeat-img" src="<?= ROOT ?>images/rotate.png" style="margin-right: 35%;">    
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center text-center" style="margin-left: 30%;">
-            <a id="helden-link" class="helden-link-pagina" href="helden" style="margin-top: 47%;"><strong>klik hier voor alle helden!</strong></a>
+            <a id="helden-link" class="helden-link-pagina" href="Helden.php" style="margin-top: 47%;"><strong>klik hier voor alle helden!</strong></a>
         </div>
     </div>
     <style>
