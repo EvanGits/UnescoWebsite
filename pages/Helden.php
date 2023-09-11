@@ -86,9 +86,8 @@ include "../includes/Hamburger.php";
 img#RobImage
 /*img#BohrImage*/
 {
-    width: 75%;
-    height: auto;
-    max-width: 100%;
+    width: auto;
+    height: 1000px;
 }
 </style>
 
