@@ -15,7 +15,10 @@ body{
 .text-kleur{
     color: #121212;
 }
-
+h1
+{
+    padding: 15px;
+}
 .beginlijn-class {
     max-width: 200%; /* Set the maximum width of the image */
     width: 140%; /* Make the image responsive */
@@ -46,6 +49,7 @@ body{
 }
 .bb-background{
     background-color: #e23535;
+    padding: 15px;
 }
 .b-background1{
     background-color: #8f29ca;
@@ -54,6 +58,7 @@ body{
 }
 .bb-background1{
     background-color: #a93ce8;
+    padding: 15px;
 }
 .b-background2{
     background-color: #8f29ca;
