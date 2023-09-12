@@ -11,7 +11,7 @@ include "../includes/Hamburger.php";
                 <img id="TianatImage" src="<?= ROOT ?>images/tianat.png" style=" margin-top: 200%; margin-left: 10%;">
             </div>
             <div class="col-4">
-                <img style="margin-left: 105%;" class="banner" src="../images/banneroranje.png">
+                <img style="margin-left: 105%;" class="banner" src="../images/BannerOranje.png">
                 <div class="card1" style="position: absolute; margin-left: 20%; margin-top: 40%;">
                 </div> 
             </div>
