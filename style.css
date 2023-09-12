@@ -1,3 +1,23 @@
+:root{
+  --hamButton-width: 170px;
+  --hamButton-height: 30px;
+  /*--ham-height: calc(var(--hamButton-height) * 3 + var
+    (--hamButton-gap) * 2); --WERKT NIET */
+  --hamButton-margin: 20px; 
+  --hamButton-gap: 1.6em; 
+  --hamButton-top-bottom: 200%; 
+  --hamButton-left: 20%; 
+  --hamButton-border: #000000;  
+  --foreground: #FFFFFF;  
+  --background: #280059;
+  --checked-color: #FF0000; 
+  --animation-timing: 200ms; 
+  --animation-curve: 10ms; 
+
+  --card-height: 90vh;
+  --card-width: calc(var(--card-height) / 2.6);
+}
+
 @font-face {
     font-family: "neauemontreal";
     src: url(fonts/neuemontreal/PPNeueMontreal-Bold.otf);
@@ -236,7 +256,7 @@ h1
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 2; /* set z-index higher than other elements */
+    z-index: 1; /* set z-index higher than other elements */
   }
   #text-container {
     display: flex;
@@ -561,38 +581,110 @@ input[type="radio"]:checked + .button {
   /* Het navigatie menu zelf */
 .sidenav
 {
-    height: 100%;
-    width: 0%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-color: #280059;
-    overflow-x: hidden;
-    transition: 0.25s;
-    padding-top: 60px;
-    z-index: 1;
+  transition: translate var(--animation-timing);
+  translate: -100%; 
+  height:100%; 
+  width: 100%; 
+  position: fixed; 
+  padding: 0.5rem 1rem;
+  padding-top: 60px; 
+  background-color: #280059;
+  overflow-x: hidden; 
+  z-index: 2; 
+  max-width: 35rem; 
+  min-height: 100vh; 
 }
 /* De text binnen het navigatiemenu */
-.sidenav a
+.sidenav #buttons
 {
-    padding: 10px 8px 8px 32px;
+
+    padding: 15px 50px 50px 32px;
     text-decoration: none;
     display: block;
     transition: 0.25s;
     font-size: 65px;
     color: #ffffff;
-
-
+    background-color: #1E7DD6; 
+    border-style: solid;
+    border-color: black; 
+    margin-top: 200px; 
 }
 
-/* De knop om het menu te sluiten */
-.sidenav #closebutton
-{
-    position: absolute;
-    top: 40px;
-    right: 25px;
-    margin-right: 0;
-    font-size: 110px;
+/*overgangseffect voor de tekst*/
+.sidenav #buttons:hover{
+  background-color: #1EC6D6;
+}
+
+/*knop voor navigatiemenu(test) 1em=16px*/
+.hamButton{ 
+  position: fixed; 
+  display: flex; 
+  flex-direction: column; 
+  gap: var(--hamButton-gap);
+  width: max-content; 
+  top: var(--hamButton-margin); 
+  left: var(--hamButton-margin);  
+  z-index: 3;
+  cursor: pointer;   
+}
+
+
+.hamButton::before, 
+.hamButton::after,
+.hamButton input{
+  content: "";
+  position: relative;  
+  width: var(--hamButton-width); 
+  height: var(--hamButton-height); 
+  background-color: var(--foreground);
+  border-radius: 9999px; 
+  transition: opacity var(--animation-timing), width
+  var(--animation-curve), rotate var(--animation-timing),
+  translate var(--animation-timing), background-color var(--animation-timing);
+  border: 5px solid var(--hamButton-border);  
+} 
+
+/*checkbox van de knop - is zo niet zichbaar. Dit
+om label klikbaar te maken en hiervoor checkbox te verbergen. 
+Checkbox is hierbij dan overbodig. */ 
+.hamButton input{
+  appearance: none;
+  padding: 0; 
+  margin: 0; 
+  outline: none;
+  pointer-events: none; 
+}
+
+/*knop -bovenstuk- wanneer geklikt (::before)*/
+.hamButton:has(input:checked)::before{
+  background: var(--checked-color);
+  rotate: 45deg;
+  top: var(--hamButton-top-bottom);
+  left: var(--hamButton-left);
+  transform-origin: left top;
+  border: 5px solid var(--hamButton-border);
+} 
+
+/*knop -onderstuk- wanneer geklikt (::after)*/
+.hamButton:has(input:checked)::after{
+  background: var(--checked-color);
+  rotate: -45deg;
+  bottom: var(--hamButton-top-bottom); 
+  left: var(--hamButton-left);
+  transform-origin: left bottom;
+  border: 5px solid var(--hamButton-border);
+ 
+}
+
+/*knop haalt de sidenav tevoorschijn*/ 
+.hamButton:has(input:checked) + .sidenav{
+translate: 0; 
+}
+
+/*knop -middenstuk- wanneer geklikt*/ 
+.hamButton input:checked{
+  opacity: 0; 
+  width: 0; 
 }
 
 .image2
