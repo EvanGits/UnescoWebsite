@@ -11,7 +11,7 @@ include "../includes/Hamburger.php";
                 <img id="BohrImage" class="raeve"  src="<?= ROOT ?>images/Bohr.png" style=" margin-top: 200%;">
             </div>
             <div class="col-4">
-                    <img style="margin-left: 105%;" class="banner" src="../images/bannerRoze.png">
+                    <img style="margin-left: 105%;" class="banner" src="../images/BannerRoze.png">
                 <div class="card2" style="position: absolute; margin-left: 20%; margin-top: 40%;">
                 </div>
             </div>
@@ -64,18 +64,18 @@ include "../includes/Hamburger.php";
 
         .spinny{
             animation: spinY 2.5s ease-in 1s;
-        } 
+        }
         .spinny2{
             animation: spinY 2.5s ease-out 1.5s;
-        } 
+        }
 
         @keyframes spinY
         {
             0% {
-                transform: rotate(0deg);
+                transform: rotateY(0deg);
             }
             100% {
-                transform: rotate(360deg);
+                transform: rotateY(1800deg);
             }
         }
         .new_background_bhor
@@ -88,14 +88,6 @@ include "../includes/Hamburger.php";
 
         }
 
-        :root {
-            --rotate: 45deg;
-        }
-
-        .card2::before
-        {
-            content: none;
-        }
 
     </style>
     <script>
@@ -156,7 +148,7 @@ include "../includes/Hamburger.php";
         Image1.classList.remove("spinny2");
     }, 5000);
 
-    }   
+    }
     </script>
 </main>
 <?php
