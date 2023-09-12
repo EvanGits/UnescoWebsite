@@ -5,7 +5,7 @@ include "includes/Hamburger.php";
 ?>
         <!-- pages worden zo opgeroepen, $page = de pagina wat je als eerst wilt laten zien-->
         <main>
-            <!-- Start pagina, met behulp van de javascript code krijg je het effect dat je door het portaal gaat -->
+            <!-- Start pagina, met behulp van de javascript code krijg je het effect dat je door het portaal gaat-->
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 d-flex mx-5 justify-content-center align-items-center position-absolute">
