@@ -607,9 +607,12 @@ input[type="radio"]:checked + .button {
     background-color: #1E7DD6; 
     border-style: solid;
     border-color: black; 
-    margin-top: 200px; 
+    margin-top: 50px;
 }
-
+#button_1
+{
+    margin-top: 50px;
+}
 /*overgangseffect voor de tekst*/
 .sidenav #buttons:hover{
   background-color: #1EC6D6;

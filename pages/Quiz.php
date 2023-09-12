@@ -169,7 +169,7 @@ if($quizEnded){
 </head>
 
 <!-- Quiz form -->
-<body>
+<body class="QuizAchtergrond">
 <div class="col-12 quiz" style="position: relative;">
     <div class="image-wrapper" style="position: relative; overflow: hidden; pointer-events: none;">
         <img src="../images/Overgang-1.png" class="quiz-image" style="width: 100%; height: auto;">
@@ -186,7 +186,7 @@ if($quizEnded){
         <h4>Total Points: <?php echo $totalPoints; ?></h4>
     <?php else: ?>
         <form method="post" action="">
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin-top: 50%;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;  margin-top: 50%;">
             <?php
             // Get the current category, question, and options
             $category = array_keys($categories)[$categoryIndex];
@@ -212,5 +212,6 @@ if($quizEnded){
             </div>
         </form>
     <?php endif; ?>
+
 </div>
 </body>

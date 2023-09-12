@@ -54,7 +54,7 @@ include "../includes/Hamburger.php";
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center"><img id="EmilyImage" class="image2 px-4 py-3" src="<?= ROOT ?>images/emily.png"></div>
                 <div class="col-12 mt-1">
-                    <button class="col-4" style="margin-left: 58.333%;" onclick="Spinny4()">switch</button> 
+                    <button class="col-4" style="margin-left: 58.333%;     margin-bottom: 100px;" onclick="Spinny4()">switch</button>
                 </div>
             </div>
         </div>

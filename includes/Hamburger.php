@@ -12,7 +12,7 @@
 <div id="NavBar" class="sidenav">
 	<!-- Verwijzingen naar de andere pagina's / sites -->
 	<div id="Buttons" class="buttons">
-		<a href="<?= ROOT ?>" id="buttons">Hoofdpagina</a>
+		<a href="<?= ROOT ?>" id="buttons" style="margin-top: 150px">Hoofdpagina</a>
 		<a href="<?= ROOT ?>pages/Quiz.php" id="buttons">Ontdek je Innerlijke Held</a>
 		<a href="https://sdgs.un.org/goals" target="_blank" id="buttons">Unesco klimaatdoelen</a>
 		<a href="<?= ROOT ?>pages/Helden.php" id="buttons">Helden</a>

@@ -60,7 +60,10 @@
 </div>      
 </main>
 <style>
-
+#NavBar
+{
+    top: 0;
+}
 @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
