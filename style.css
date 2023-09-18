@@ -403,7 +403,7 @@ input[type="radio"]:checked + .button {
 
 .image-wrapper {
     overflow: hidden;
-    height: 100vh; /* Adjust the height as needed */
+    height: 100%; /* Adjust the height as needed */
 }
 
 @keyframes spin {

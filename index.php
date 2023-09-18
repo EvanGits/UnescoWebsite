@@ -1,4 +1,4 @@
-<?php
+    <?php
 //Inbcluden header en nav
 include "includes/header.php";
 include "includes/Hamburger.php";
