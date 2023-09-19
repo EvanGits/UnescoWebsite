@@ -57,6 +57,37 @@
             mijn rol hierbij was het creeeren van het menu en de navigatie over de hele website.</em> </p></div>
         <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portretTimothy.png"></div>
     </div>
+
+         <div class="row mt-5">
+             <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Jens.png"></div>
+             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Heyo! Mijn naam is Jason Passeau, ik ben een 21 jarige student
+                         Software Development op het KW1C in het derde jaar, en ik heb stage gelopen bij het productiehuis. Voor de web-app heb
+                         ik deze pagina en de heldenpagina gemaakt.</em> </p>
+             </div>
+         </div>
+
+         <div class="row mt-5">
+             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hallo, ik ben Tygo ik ben 20 jaar oud.
+                         Ik volg de opleiding Software Developer Ik ben een 2e  jaars student op het kw1c in Den Bosh.
+                         Ik heb samen met mijn team alle bugs gefixt en de website responsive gemaakt.
+                         </em> </p></div>
+             <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_tygo.png"></div>
+         </div>
+
+         <div class="row mt-5">
+             <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Aisha.png"></div>
+             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Heyo! Mijn naam is Jason Passeau, ik ben een 21 jarige student
+                         Software Development op het KW1C in het derde jaar, en ik heb stage gelopen bij het productiehuis. Voor de web-app heb
+                         ik deze pagina en de heldenpagina gemaakt.</em> </p>
+             </div>
+         </div>
+
+         <div class="row mt-5">
+             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hallo! Mijn naam is Timothy Cobussen, ik ben 20 jaar en volg de opleiding
+                         Software Developer aan het KW1C. Bij het productiehuis hebben wij gewerkt aan deze mooie unesco belevenis,
+                         mijn rol hierbij was het creeeren van het menu en de navigatie over de hele website.</em> </p></div>
+             <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Evan.png"></div>
+         </div>
 </div>      
 </main>
 <style>
