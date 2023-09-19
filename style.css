@@ -714,15 +714,23 @@ a:visited{
     {
         max-width: none;
     }
-}
-@media (min-width: 1000px) {
     .sidenav #buttons
     {
         margin: 10px;
         font-size: 50px;
         padding: 15px;
-
         border-radius: 10px;
-
     }
+    .buttons_2
+    {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        align-items: flex-end;
+    }
+}
+@media (min-width: 1000px) {
+    .sidenav #buttons
+
 }
