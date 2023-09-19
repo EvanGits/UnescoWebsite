@@ -76,9 +76,9 @@
 
          <div class="row mt-5">
              <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Aisha.png"></div>
-             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Heyo! Mijn naam is Jason Passeau, ik ben een 21 jarige student
-                         Software Development op het KW1C in het derde jaar, en ik heb stage gelopen bij het productiehuis. Voor de web-app heb
-                         ik deze pagina en de heldenpagina gemaakt.</em> </p>
+             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hoi, ik ben Aisha en ik ben 19 jaar oud.
+                         Ik volg de opleiding Software Developer in Koning Willem 1 College.
+                         Ik ben verantwoordelijk voor het helpen en het fiksen van errors  op de website.</em> </p>
              </div>
          </div>
 
