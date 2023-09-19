@@ -60,9 +60,10 @@
 
          <div class="row mt-5">
              <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Jens.png"></div>
-             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Heyo! Mijn naam is Jason Passeau, ik ben een 21 jarige student
-                         Software Development op het KW1C in het derde jaar, en ik heb stage gelopen bij het productiehuis. Voor de web-app heb
-                         ik deze pagina en de heldenpagina gemaakt.</em> </p>
+             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hey, Hallo!  ik ben Jens van Berkel en ik ben 18 jaar oud.
+                         Ik volg de opleiding Mediavormgeving op het Koning Willem 1 College in Den Bosch.
+                         ik ben verantwoordelijk voor het resizen van wat afbeeldingen en de 4 nieuwe portretten op de makers pagina.
+                         Ciao!</em> </p>
              </div>
          </div>
 
