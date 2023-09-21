@@ -72,7 +72,7 @@
                          Ik volg de opleiding Software Developer Ik ben een 2e  jaars student op het kw1c in Den Bosh.
                          Ik heb samen met mijn team alle bugs gefixt en de website responsive gemaakt.
                          </em> </p></div>
-             <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_tygo.png"></div>
+             <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Tygo.png"></div>
          </div>
 
          <div class="row mt-5">

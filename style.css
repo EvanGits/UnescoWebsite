@@ -715,11 +715,12 @@ a:visited{
     .sidenav
     {
         max-width: none;
+        padding-top: 20px;
     }
     .sidenav #buttons
     {
         margin: 10px;
-        font-size: 50px;
+        font-size: 40px;
         padding: 15px;
         border-radius: 10px;
     }
@@ -730,6 +731,16 @@ a:visited{
         flex-wrap: wrap;
         padding-top: 0;
         align-items: flex-end;
+    }
+    .quiz-vraag
+    {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .button
+    {
+        font-size: 20px;
+
     }
 }
 @media (min-width: 1001px)
