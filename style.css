@@ -709,6 +709,7 @@ translate: 0;
 a:visited{
   color: white;
 }
+
 @media (orientation: landscape)
 {
 
@@ -743,7 +744,11 @@ a:visited{
 
     }
 }
-@media (min-width: 1001px)
-{
 
+/* Mediaquery voor desktopweergave */
+@media (min-width: 1001px) {
+    .textgrootte {
+        font-size: 20px;
+    }
 }
+
