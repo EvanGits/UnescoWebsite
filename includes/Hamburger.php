@@ -14,7 +14,7 @@
 	<div id="Buttons" class="buttons buttons_2">
 		<a href="<?= ROOT ?>" id="buttons" style="margin-top: 150px">Hoofdpagina</a>
 		<a href="<?= ROOT ?>pages/Quiz.php" id="buttons">Ontdek je Innerlijke Held</a>
-		<a href="https://sdgs.un.org/goals" target="_blank" id="buttons">Unesco klimaatdoelen</a>
+		<a href="https://unric.org/nl/duurzame-ontwikkelingsdoelstellingen/" target="_blank" id="buttons">Unesco klimaatdoelen</a>
 		<a href="<?= ROOT ?>pages/Helden.php" id="buttons">Helden</a>
 		<a href="<?= ROOT ?>pages/About.php" id="buttons">De makers</a>
 	</div>
