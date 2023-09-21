@@ -260,7 +260,7 @@ h1
     z-index: 1; /* set z-index higher than other elements */
   }
   #text-container {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -695,7 +695,7 @@ translate: 0;
 {
     margin-left: auto;
     background: transparent;
-    display: block;
+    display: flex;
     width: 100%;
 }
 
@@ -748,7 +748,12 @@ a:visited{
 /* Mediaquery voor desktopweergave */
 @media (min-width: 1001px) {
     .textgrootte {
-        font-size: 20px;
+        font-size: 20px;   
     }
+
+/*Vera*/  
+    .image2{
+
+    } 
 }
 

@@ -25,7 +25,7 @@ include "../includes/Hamburger.php";
             </div>
             
             <div class="row">
-                <div class="col-6 center-block  textgrootte"<br>
+                <div class="col-6 center-block  textgrootte"><br>
                     <p>Taiana  komt uit Kiev en leert voor Allround Constructiewerker. Zij is statushouder en omdat ze moest vluchten heeft ze alles achter moeten laten. Sommige van haar vrienden zijn gevlucht anderen zijn daar gebleven. De beelden in het nieuws laten zien dat het wel jaren kan duren voordat alles wat is verwoest is hersteld.
                     </p>
                     <p>Na de oorlog wil ze terug naar de Oekraïne om te helpen haar moederland weer op te bouwen. Dit verlangen wordt op een dag zo groot dat ook zij zichzelf ziet veranderen een licht vanbinnen uit straalt en zij megasterk wordt en zij zonder moeite de zwaarste dingen kan tillen. Deze superkracht zal haar in staat stellen te helpen met de wederopbouw. 
