@@ -84,9 +84,10 @@
          </div>
 
          <div class="row mt-5">
-             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hallo! Mijn naam is Timothy Cobussen, ik ben 20 jaar en volg de opleiding
-                         Software Developer aan het KW1C. Bij het productiehuis hebben wij gewerkt aan deze mooie unesco belevenis,
-                         mijn rol hierbij was het creeeren van het menu en de navigatie over de hele website.</em> </p></div>
+             <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hallo mensen! Mijn naam is Evan Geerts, ben 20 jaar oud en heb
+                voor 3 jaar de opleiding Software Developer gedaan in KW1C Oss. Hier heb ik bij het Productiehuis eind-stage gelopen. 
+                Samen met het team hebben we de bugs/fouten gefixt en de website responsive gemaakt. 
+                Hierin heb ik het meest gewerkt aan het navigatiemenu en de ontwerpen van de desktop weergave.</em> </p></div>
              <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Evan.png"></div>
          </div>
 </div>      
