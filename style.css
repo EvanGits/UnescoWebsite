@@ -4,8 +4,8 @@
   --hamButton-height: 20px;
   /*--ham-height: calc(var(--hamButton-height) * 3 + var
     (--hamButton-gap) * 2); --WERKT NIET */
-  --hamButton-margin: 30px; 
-  --hamButton-gap: 1em; 
+  --hamButton-margin: 30px;
+  --hamButton-gap: 1em;
   --hamButton-top-bottom: 200%; 
   --hamButton-left: 20%; 
   --hamButton-border: #000000;  
@@ -744,11 +744,40 @@ a:visited{
 
     }
 }
-
-/* Mediaquery voor desktopweergave */
-@media (min-width: 1001px) {
-    .textgrootte {
+@media (min-width: 1001px)
+{
+    .guardian-tekst2
+    {
+        margin-top: 10px !important;
+        margin-left: 220px !important;
+        font-size: 40px;
+    }
+    .banner
+    {
+        width: auto;
+        height: 50vh;
+        float: right;
+    }
+    .justify-content-center
+    {
+        justify-content: flex-start !important;
+    }
+    #TianatImage
+    {
+        margin-top: 20vh !important;
+        height: 65vh ;
+        margin-left: 100px !important;
+    }
+    .rotate
+    {
+        width: auto;
+        height: 70px;
+        margin-left: 170px;
+    }
+    .textgrootte
+    {
         font-size: 20px;
     }
 }
+
 
