@@ -1,11 +1,11 @@
 
 :root{
-  --hamButton-width: 170px;
-  --hamButton-height: 30px;
+  --hamButton-width: 110px;
+  --hamButton-height: 20px;
   /*--ham-height: calc(var(--hamButton-height) * 3 + var
     (--hamButton-gap) * 2); --WERKT NIET */
-  --hamButton-margin: 20px; 
-  --hamButton-gap: 1.6em; 
+  --hamButton-margin: 30px; 
+  --hamButton-gap: 1em; 
   --hamButton-top-bottom: 200%; 
   --hamButton-left: 20%; 
   --hamButton-border: #000000;  
