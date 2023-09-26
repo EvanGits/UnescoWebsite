@@ -829,6 +829,7 @@ a:visited{
     }
     .image2{
         height: 100vh;
+        width: auto;
     }
 }
 
@@ -838,6 +839,7 @@ img#RobImage{
 
 img#EmilyImage{
     height: 100vh;
+    width:auto;
 }
 
 .heldenlijn-class{
