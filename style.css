@@ -757,27 +757,58 @@ a:visited{
         width: auto;
         height: 50vh;
         float: right;
+        margin-right: 3vw;
     }
     .justify-content-center
     {
         justify-content: flex-start !important;
     }
-    #TianatImage
+    #TianatImage, #BohrImage, #LimeyImage ,#RaeveImage
     {
         margin-top: 20vh !important;
         height: 65vh ;
-        margin-left: 100px !important;
+        margin-left: 70px !important;
     }
     .rotate
     {
         width: auto;
         height: 70px;
-        margin-left: 170px;
+        margin-left: 150px;
+    }
+    .New_background_Tianat, .card1, .new_background_bhor, .card2, .New_background_Reave, .card3, .New_background_Limey, .card
+    {
+        margin-left: 370px !important;
+        margin-top: 20vh !important;
+        width: 50vw !important;
+    }
+    .tekst_helden
+    {
+        font-size: 20px !important;
+    }
+    .new_place
+    {
+        justify-content: flex-end!important;
+        margin-left: 0!important;
+    }
+    .helden-link-pagina
+    {
+        font-size: 25px;
+    }
+    #helden-link
+    {
+        margin-top: -170px!important;
+        width: 17vw;
+        margin-right: 3vw;
+    }
+    .card1::after, .card2::after, .card3::after, .card::after
+    {
+        content: none;
     }
     .textgrootte
     {
         font-size: 20px;
     }
+
 }
 
 
