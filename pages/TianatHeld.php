@@ -5,8 +5,8 @@ include "../includes/Hamburger.php";
 <main>
     <div class="col-12">        
         <div class="row col-12">
-            <h1 style="position:absolute; margin-top: 35%; margin-left: 15%;" class="guardian-tekst2"><strong>Vrede<br>& <br> Mensenrechten</strong></h1>
-            <h1 style="position:absolute; margin-top: 62%; margin-left: 15%;" class="guardian-tekst2"><strong><i>Tatiana/Tianat</i></strong></h1>
+            <h1 style="position:absolute; margin-top: 35%; margin-left: 15%;" class="guardian-tekst2"><strong>Vrede & Mensenrechten <br> <i>Tatiana/Tianat</i></strong></h1>
+
             <div class="col-8 d-flex justify-content-center align-items-center">
                 <img id="TianatImage" src="<?= ROOT ?>/images/Tianat.png" style=" margin-top: 200%; margin-left: 10%;">
             </div>
@@ -17,30 +17,30 @@ include "../includes/Hamburger.php";
             </div>
             <div class="New_background_Tianat" style="position: absolute; font-size: 50px; margin-left: 65%; margin-top: 120%;">
                 <h1 style="margin-left: 20%;" class="guardian-tekst2"><i>Dit is Tianat</i></h1>
-                <p class="mt-5" style="font-size: 41px;">
-                    Tatiana komt uit Kiev en leert <br> 
-                    voor Allround Constructiewerker. Zij is<br>  
-                    statushouder en omdat ze moest <br> 
-                    vluchten heeft ze alles achter moeten <br> 
+                <p class="mt-5 tekst_helden" style="font-size: 41px;">
+                    Tatiana komt uit Kiev en leert
+                    voor Allround Constructiewerker. Zij is
+                    statushouder en omdat ze moest
+                    vluchten heeft ze alles achter moeten
                     laten.
                 </p>
-                <p style="font-size: 41px;">
-                    Sommige van haar vrienden zijn <br> 
-                    gevlucht, anderen zijn daar gebleven. De <br>
-                    beelden in het nieuws laten zien dat het <br> 
-                    wel jaren kan duren voordat alles wat is <br> 
-                    verwoest is hersteld. Na de oorlog wil ze <br> 
-                    terug naar Oekraïne om te helpen haar <br>
-                    moederland weer op te bouwen. <br> 
+                <p class="tekst_helden" style="font-size: 41px;">
+                    Sommige van haar vrienden zijn
+                    gevlucht, anderen zijn daar gebleven. De
+                    beelden in het nieuws laten zien dat het
+                    wel jaren kan duren voordat alles wat is
+                    verwoest is hersteld. Na de oorlog wil ze
+                    terug naar Oekraïne om te helpen haar
+                    moederland weer op te bouwen.
                 </p> 
-                <p style="font-size: 41px;">
-                    Dit verlangen wordt op een dag zo groot<br> 
-                    dat ook zij zichzelf ziet veranderen. Een<br> 
-                    licht  van binnen uit straalt en zij wordt <br> 
-                    megasterk en zonder moeite kan ze de <br> 
-                    zwaarste dingen tillen. Deze superkracht <br> 
-                    zal haar in staat stellen te helpen met de wederopbouw. <br> 
-                    Tatiana is veranderd in Tianat <br> 
+                <p class="tekst_helden" style="font-size: 41px;">
+                    Dit verlangen wordt op een dag zo groot
+                    dat ook zij zichzelf ziet veranderen. Een
+                    licht  van binnen uit straalt en zij wordt
+                    megasterk en zonder moeite kan ze de
+                    zwaarste dingen tillen. Deze superkracht
+                    zal haar in staat stellen te helpen met de wederopbouw.
+                    Tatiana is veranderd in Tianat
                     die strijd voor vrede en mensenrechten.
                 </p> 
             </div>
@@ -48,7 +48,7 @@ include "../includes/Hamburger.php";
         <div class="col-12 d-flex justify-content-center align-items-center">              
             <img onclick="Spinny()" class="rotate heartbeat-img" src="<?= ROOT ?>images/rotate.png" style="margin-right: 35%;">    
         </div>
-        <div class="col-12 d-flex justify-content-center align-items-center text-center" style="margin-left: 30%;">
+        <div class="col-12 d-flex justify-content-center align-items-center text-center new_place" style="margin-left: 30%;">
             <a id="helden-link" class="helden-link-pagina" href="Helden.php" style="margin-top: 47%;"><strong>klik hier voor alle helden!</strong></a>
         </div>
     </div>

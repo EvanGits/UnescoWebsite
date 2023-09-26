@@ -5,8 +5,7 @@ include "../includes/Hamburger.php";
 <main>
     <div class="col-12">        
         <div class="row col-12">
-            <h1 style="position:absolute; margin-top: 30%; margin-left: 15%;" class="guardian-tekst2"><strong>Intercultureel</strong></h1>
-            <h1 style="position:absolute; margin-top: 37%; margin-left: 15%;" class="guardian-tekst2"><strong><i>Rob/Bohr</i></strong></h1>
+            <h1 style="position:absolute; margin-top: 30%; margin-left: 15%;" class="guardian-tekst2"><strong>Intercultureel <br> <i>Rob/Bohr</i></strong></h1>
             <div class="col-8 d-flex justify-content-center align-items-center">
                 <img id="BohrImage" class="raeve"  src="<?= ROOT ?>images/Bohr.png" style=" margin-top: 200%;">
             </div>
@@ -17,14 +16,14 @@ include "../includes/Hamburger.php";
             </div>
             <div class="new_background_bhor" style="position: absolute; font-size: 50px; margin-left: 65%; margin-top: 120%;">
                 <h1 style="margin-left: 20%;" class="guardian-tekst2"><i>Dit is Bohr</i></h1>
-                <p class="mt-5" style="font-size: 41px;">
+                <p class="mt-5 tekst_helden" style="font-size: 41px;">
                     Student Leidinggevende travel
                     en hospitality. Tijdens de lunchpauze
                     op school ziet hij dat een klasgenoot
                     wordt gepest vanwege zijn Aziatische
                     afkomst.  
                 </p>
-                <p style="font-size: 41px;">
+                <p class="tekst_helden" style="font-size: 41px;">
                     Rob heeft een hekel aan
                     discriminatie en buitensluiten hij komt
                     daarom in actie. Wanneer Rob de
@@ -33,7 +32,7 @@ include "../includes/Hamburger.php";
                     borst opwellen en ziet hij een fel licht
                     om zich heen. 
                 </p>
-                <p style="font-size: 41px;">
+                <p class="tekst_helden" style="font-size: 41px;">
                     Wanneer hij de pester
                     aanraakt bij zijn schouder blijkt Rob
                     te zijn veranderd in Bohr, een superheld
@@ -53,7 +52,7 @@ include "../includes/Hamburger.php";
         <div class="col-12 d-flex justify-content-center align-items-center">              
             <img onclick="Spinny()"class="rotate heartbeat-img" src="<?= ROOT ?>images/rotate.png" style="margin-right: 35%;">
         </div>
-        <div class="col-12 d-flex justify-content-center align-items-center text-center" style="margin-left: 30%;">
+        <div class="col-12 d-flex justify-content-center align-items-center text-center new_place" style="margin-left: 30%;">
             <a id="helden-link" class="helden-link-pagina" href="Helden.php" style="margin-top: 40%;"><strong>klik hier voor alle helden!</strong></a>
         </div>
     </div>

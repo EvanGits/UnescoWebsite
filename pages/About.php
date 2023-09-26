@@ -58,6 +58,8 @@
         <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portretTimothy.png"></div>
     </div>
 
+
+             <div class="afmakersTitel"> De afmakers</div>
          <div class="row mt-5">
              <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Jens.png"></div>
              <div class="col-6 center-block"><br> <p style="font-size:25px;"><em>Hey, Hallo!  ik ben Jens van Berkel en ik ben 18 jaar oud.
@@ -90,7 +92,7 @@
                 Hierin heb ik het meest gewerkt aan het navigatiemenu en de ontwerpen van de desktop weergave.</em> </p></div>
              <div class="col-6"><img class="image1" src="<?= ROOT ?>images/portret_Evan.png"></div>
          </div>
-</div>      
+</div>
 </main>
 <style>
 #NavBar
@@ -129,6 +131,19 @@
 .col-12
 {
     margin-bottom: 70px;
+}
+
+.afmakersTitel{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.background_new{
+    width: 900px;
+    height: auto;
 }
 </style>
 <?php

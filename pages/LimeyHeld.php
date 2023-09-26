@@ -5,8 +5,7 @@ include "../includes/Hamburger.php";
 <main>
     <div class="col-12">        
         <div class="row col-12">
-            <h1 style="position:absolute; margin-top: 30%; margin-left: 15%;" class="guardian-tekst2"><strong>WereldBurgerschap</strong></h1>
-            <h1 style="position:absolute; margin-top: 37%; margin-left: 15%;" class="guardian-tekst2"><strong><i>Emily/Limey</i></strong></h1>
+            <h1 style="position:absolute; margin-top: 30%; margin-left: 15%;" class="guardian-tekst2"><strong>WereldBurgerschap <br> <i>Emily/Limey</i></strong></h1>
             <div class="col-8 d-flex justify-content-center align-items-center">
                 <img id="LimeyImage" src="<?= ROOT ?>images/limey.png" style=" margin-top: 233.5%;">
             </div>
@@ -17,14 +16,14 @@ include "../includes/Hamburger.php";
             </div>
             <div class="New_background_Limey" style="position: absolute; font-size: 50px; margin-left: 65%; margin-top: 120%;">
                 <h1 style="margin-left: 20%; color: black;" class="guardian-tekst2"><i>Dit is Limey</i></h1>
-                <p class="mt-5" style="font-size: 41px; color: black;">
+                <p class="mt-5 tekst_helden" style="font-size: 41px; color: black;">
                 Emily zit in het eerste jaar van de
                 koksopleiding. Ze houdt ervan mensen
                 blij te maken met het heerlijkste eten.
                 Ze kookt al vanaf kleins af aan voor haar
                 familie.  
                 </p>
-                <p style="font-size: 41px; color: black;">
+                <p class="tekst_helden" style="font-size: 41px; color: black;">
                     Ze waren heel hecht als gezin.
                     Nu zij en haar broer ouder worden merkt
                     Emily dat er meer afstand ontstaat in het
@@ -33,7 +32,7 @@ include "../includes/Hamburger.php";
                     dat ze met haar kookkunst de ruzies kon
                     oplossen.
                 </p>
-                <p style="font-size: 41px; color: black;">
+                <p class="tekst_helden" style="font-size: 41px; color: black;">
                     Ineens verblindt een fel licht
                     wat de kamer binnen schijnt, haar zicht
                     en voelt Emily iets in zichzelf opborrelen.
@@ -42,7 +41,7 @@ include "../includes/Hamburger.php";
                     alle lievelingsgerechten van haar familie.
                     
                 </p>
-                <p style="font-size: 41px; color: black;">
+                <p class="tekst_helden" style="font-size: 41px; color: black;">
                     Haar ouders en broer staan versteld,
                     ze gaan samen aan tafel en onder het
                     eten praten ze hun meningsverschillen
@@ -55,7 +54,7 @@ include "../includes/Hamburger.php";
         <div class="col-12 d-flex justify-content-center align-items-center">              
             <img onclick="Spinny()" class="rotate heartbeat-img" src="../images/rotate.png" style="margin-right: 35%;">
         </div>
-        <div class="col-12 d-flex justify-content-center align-items-center text-center" style="margin-left: 30%;">
+        <div class="col-12 d-flex justify-content-center align-items-center text-center new_place" style="margin-left: 30%;">
             <a id="helden-link" class="helden-link-pagina" href="Helden.php" style="margin-top: 40%;"><strong>klik hier voor alle helden!</strong></a>
         </div>
     </div>
