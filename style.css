@@ -506,6 +506,7 @@ input[type="radio"]:checked + .button {
 }
 
 
+
 @keyframes spin {
   0% {
     --rotate: 0deg;
@@ -803,7 +804,29 @@ a:visited{
     {
         font-size: 20px;
     }
+    .image2{
+        width: 300px;
+        height: auto;
+    }
+}
 
+img#RobImage{
+    width: 300px;
+    height: auto;
+}
+
+img#EmilyImage{
+    width: 300px;
+    height: auto;
+}
+
+.heldenlijn-class{
+    margin-left: 35%;
+
+}
+
+.karakters-einde{
+    width:100%;
 }
 
 
