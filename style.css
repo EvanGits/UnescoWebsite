@@ -751,19 +751,7 @@ a:visited{
 
     }
 }
-<<<<<<< HEAD
 
-/* Mediaquery voor desktopweergave */
-@media (min-width: 1001px) {
-    .textgrootte {
-        font-size: 20px;   
-    }
-
-/*Vera*/  
-    .image2{
-
-    } 
-=======
 @media (min-width: 1001px)
 {
     .reave_button
@@ -862,8 +850,7 @@ a:visited{
         width:100%;
     }
 
-    .
-    btn-quiz{
+    .btn-quiz{
 
     }
 }
