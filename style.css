@@ -332,7 +332,6 @@ h1
     background-image: linear-gradient(
             var(--rotate), #c1ff7b, #80e24f 43%, yellow);
     width: 80%;
-    animation: spin 2.5s linear infinite;
 }
 
   .card::after {
@@ -350,7 +349,6 @@ h1
       , #c1ff7b, #80e24f 43%, yellow);
       opacity: 1;
     transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
   }
 
 .quiz-vraag{
@@ -458,7 +456,6 @@ input[type="radio"]:checked + .button {
     , yellow,#f8c210 43%, orange );
     opacity: 1;
   transition: opacity .5s;
-  animation: spin 2.5s linear infinite;
 }
 
 
@@ -506,7 +503,6 @@ input[type="radio"]:checked + .button {
     , #ffbfc3,#ff8991 43%, #ff535e );
     opacity: 1;
   transition: opacity .5s;
-  animation: spin 2.5s linear infinite;
 }
 
 
@@ -564,7 +560,6 @@ input[type="radio"]:checked + .button {
     , #b6c6fe,#2cca709f ,#ade1fe 43%, #4cb9f3 );
     opacity: 1;
   transition: opacity .5s;
-  animation: spin 2.5s linear infinite;
 }
 
 
