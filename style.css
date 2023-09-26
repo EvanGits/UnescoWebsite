@@ -506,6 +506,7 @@ input[type="radio"]:checked + .button {
 }
 
 
+
 @keyframes spin {
   0% {
     --rotate: 0deg;
@@ -704,7 +705,18 @@ translate: 0;
 a:visited{
   color: white;
 }
-
+.reave_button
+{
+    margin-top: -350px!important;
+}
+.bohr_button
+{
+    margin-top: -100px!important;
+}
+.tianat_button, .limey_button
+{
+    margin-top: -200px!important;
+}
 @media (orientation: landscape)
 {
 
@@ -754,6 +766,18 @@ a:visited{
 =======
 @media (min-width: 1001px)
 {
+    .reave_button
+    {
+        margin-top: 0!important;
+    }
+    .bohr_button
+    {
+        margin-top: 0!important;
+    }
+    .tianat_button, .limey_button
+    {
+        margin-top: 0!important;
+    }
     .guardian-tekst2
     {
         margin-top: 10px !important;
@@ -816,6 +840,29 @@ a:visited{
     {
         font-size: 20px;
     }
+    .image2{
+        height: 100vh;
+    }
+}
+
+img#RobImage{
+    height: 100vh !important;
+}
+
+img#EmilyImage{
+    height: 100vh;
+}
+
+.heldenlijn-class{
+    margin-left: 35%;
+
+}
+
+.karakters-einde{
+    width:100%;
+}
+
+.btn-quiz{
 
 >>>>>>> main
 }

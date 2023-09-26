@@ -19,7 +19,7 @@ include "../includes/Hamburger.php";
                     <p>Zo vermindert Raeve voedselverspilling. Het echtpaar, nog steeds onder de indruk van wat er voor hun ogen gebeurde neemt met een glimlach en een goedgevulde doggybag afscheid.
                     </p>
                 </div>
-                <div class="col-12 mt-1">
+                <div class="col-12 mt-1 reave_button">
                     <button class="col-4" style="margin-left: 8.333%;" onclick="Spinny()">switch</button> 
                 </div>
             </div>
@@ -33,7 +33,7 @@ include "../includes/Hamburger.php";
                     <p>Tatiana is veranderd in Tianat die strijd voor vrede en mensenrechten</p>
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center"><img id="TatianaImage" class="image2 px-4 py-3" src="<?= ROOT ?>images/tatiana.png"></div>
-                <div class="col-12 mt-1">
+                <div class="col-12 mt-1 tianat_button">
                     <button class="col-4" style="margin-left: 58.333%;" onclick="Spinny2()">switch</button> 
                 </div>
             </div>
@@ -43,7 +43,7 @@ include "../includes/Hamburger.php";
                 <div class="col-6 center-block  textgrootte"><br>
                     <p>Dit is Rob, student Leidinggevende travel en hospitality. Tijdens de lunchpauze op school ziet hij dat een klasgenoot wordt gepest vanwege zijn Aziatische afkomst. Rob heeft een hekel aan discriminatie en buitensluiten hij springt daarom in actie. Wanneer Rob de pestkop aan wil spreken op zijn gedrag voelt Rob een krachtig gevoel in zijn borst opwellen en ziet een fel licht om zich heen. Wanneer hij de pester aanraakt bij zijn schouder blijkt Rob te zijn veranderd in Bohr, een superheld met teleportatiekrachten. Op deze manier neemt hij de pestkop mee naar een andere cultuur en kan zo laten zien hoe mooi en interessant andere culturen zijn. Bohr laat de pester een tijd achter in Japan. Daarna teleporteert Bohr de jongen terug. Na deze ervaring blijkt hij meer begrip te hebben voor mensen met een andere culturele achtergrond dan de zijne. </p>
                 </div>
-                <div class="col-12 mt-1">
+                <div class="col-12 mt-1 bohr_button">
                     <button class="col-4" style="margin-left: 8.333%;" onclick="Spinny3()">switch</button> 
                 </div>
             </div>
@@ -53,7 +53,7 @@ include "../includes/Hamburger.php";
                     <p>Emily zit in het eerste jaar van de koksopleiding. Ze houdt ervan mensen blij te maken met het heerlijkste eten. Ze kookt al vanaf kleins af aan voor haar familie. Ze waren heel hecht als gezin nu zij en haar broer ouder worden merkt Emily ze dat er meer afstand ontstaat in haar gezin. Na de zoveelste ruzie gaat Emily verdrietig naar haar kamer ze zou willen dat ze met haar kookkunst de ruzies kon oplossen. Ineens verblindt een fel licht wat de kamer binnen schijnt haar zicht en voelt Emily iets in zichzelf opborrelen. Ze loopt naar de keuken en tovert binnen 2 minuten een feestmaal wat bestaat uit alle lievelingsgerechten van haar familie. Haar ouders en broer staan versteld, ze gaan samen aan tafel en onder het eten praten ze hun conflicten uit. Als superheld heet ze Limey degene die mensen bij elkaar brengt en verbindt waar dat hard nodig is. </p>
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center"><img id="EmilyImage" class="image2 px-4 py-3" src="<?= ROOT ?>images/emily.png"></div>
-                <div class="col-12 mt-1">
+                <div class="col-12 mt-1 limey_button">
                     <button class="col-4" style="margin-left: 58.333%;     margin-bottom: 100px;" onclick="Spinny4()">switch</button>
                 </div>
             </div>
