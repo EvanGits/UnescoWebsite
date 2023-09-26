@@ -140,6 +140,11 @@
     text-align: center;
 
 }
+
+.background_new{
+    width: 900px;
+    height: auto;
+}
 </style>
 <?php
     include "includes/footer.php"
