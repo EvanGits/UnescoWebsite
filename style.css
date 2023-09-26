@@ -831,28 +831,29 @@ a:visited{
         height: 100vh;
         width: auto;
     }
+    img#RobImage{
+        height: 100vh !important;
+    }
+
+    img#EmilyImage{
+        height: 100vh;
+        width:auto;
+    }
+
+    .heldenlijn-class{
+        margin-left: 35%;
+
+    }
+
+    .karakters-einde{
+        width:100%;
+    }
+
+    .
+    btn-quiz{
+
+    }
 }
 
-img#RobImage{
-    height: 100vh !important;
-}
-
-img#EmilyImage{
-    height: 100vh;
-    width:auto;
-}
-
-.heldenlijn-class{
-    margin-left: 35%;
-
-}
-
-.karakters-einde{
-    width:100%;
-}
-
-.btn-quiz{
-
-}
 
 
