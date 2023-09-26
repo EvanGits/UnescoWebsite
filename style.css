@@ -828,19 +828,19 @@ a:visited{
         font-size: 20px;
     }
     .image2{
-        width: 300px;
-        height: auto;
+        width: auto;
+        height: 100vh;
     }
 }
 
 img#RobImage{
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 100vh;
 }
 
 img#EmilyImage{
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 100vh;
 }
 
 .heldenlijn-class{
@@ -850,6 +850,10 @@ img#EmilyImage{
 
 .karakters-einde{
     width:100%;
+}
+
+.btn-quiz{
+
 }
 
 
