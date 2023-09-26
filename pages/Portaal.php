@@ -56,7 +56,7 @@
                 </div>
         </p>
         <p>
-                <img src="<?= ROOT ?>images/wereldburgerschap_icoon.png" class="heartbeat-img" style="position: absolute; margin-top: 270%; margin-left: 45%;" data-toggle="collapse" data-target="#wereld">
+                <img src="<?= ROOT ?>images/wereldburgerschap2.png" class="heartbeat-img" style="position: absolute; margin-top: 270%; margin-left: 45%;" data-toggle="collapse" data-target="#wereld">
                 <div class="b-background6 collapse show" style="position: absolute; margin-top: 285%; margin-left: 50%;" id="wereld">
                         <h1>Wereldburgerschap</h1>
                         <p class="txt-button bb-background6" style="font-size: 28px;">
