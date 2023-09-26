@@ -40,6 +40,8 @@ h1
 {
     padding: 15px;
 }
+
+
 .beginlijn-class {
     max-width: 200%; /* Set the maximum width of the image */
     width: 140%; /* Make the image responsive */
@@ -156,13 +158,6 @@ h1
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-  }
-  .heartbeat-tekst {
-    animation-name: heartbeat;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    font-size: 50px;
   }
 
   @keyframes heartbeat {
@@ -856,4 +851,54 @@ a:visited{
 }
 
 
+/*home-pagina elementen vóór de media query*/ 
+
+.animatie-gif{
+  margin-top: 58vh
+}
+
+.heartbeat-tekst {
+  animation-name: heartbeat;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  font-size: 50px;
+  position: absolute; 
+}
+
+
+/*media query voor de home-pagina elementen*/ 
+@media (min-width: 1001px)
+{
+  .animatie-top{
+    margin-top: 0vh
+  } 
+
+  .animatie-jpg{
+    max-width: 40%;
+    margin-left: 75%;
+    height: auto;
+  }
+
+  .beginlijn-class{
+    max-width: 100%;
+    width: 55%;
+    height: auto;
+    margin-left: 69%;
+  }
+
+  .heartbeat-tekst {
+    animation-name: heartbeat;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 10%;
+ 
+
+  }
+  
+}
 

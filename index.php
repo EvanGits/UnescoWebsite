@@ -13,16 +13,16 @@ include "includes/Hamburger.php";
                             <img src="<?= ROOT ?>images/arrow.gif" class="img-fluid" style="width: 60%; height: 60%; margin-top: 485%; position: static;">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 d-flex mx-5 justify-content-center align-items-center" style="margin-top: 58vh;">
+                    <div class="animatie-top col-12 col-lg-6 d-flex mx-5 justify-content-center align-items-center">
                         <div class="max-width: 646vh;">
-                            <img src="<?= ROOT ?>images/animatie.gif" class="img-fluid">
+                            <img src="<?= ROOT ?>images/animatie.gif" class="animatie-jpg img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 mx-5 d-flex justify-content-center">
                         <img src="<?= ROOT ?>images/beginlijn.png" class="beginlijn-class img-fluid">
                         <p>
-                        <div style="position: absolute; margin-top: 60%;" data-toggle="collapse" data-target="#unesco" class="heartbeat-tekst">What the</div>
-                        <div style="position: absolute; margin-top:65%;" data-toggle="collapse" data-target="#unesco" class="heartbeat-tekst"> Unesco?!</div>
+                        <div style="margin-top: 60%;" data-toggle="collapse" data-target="#unesco" class="heartbeat-tekst">What the</div>
+                        <div style="margin-top:65%;" data-toggle="collapse" data-target="#unesco" class="heartbeat-tekst"> Unesco?!</div>
                         <div class="b-background collapse show" style="position: absolute; margin-top: 65%; margin-right: 50%;" id="unesco">
                             <h1>Unesco-scholennetwerk</h1>
                             <p class="txt-button bb-background" style="font-size: 37px;">
