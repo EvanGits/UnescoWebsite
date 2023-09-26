@@ -828,18 +828,15 @@ a:visited{
         font-size: 20px;
     }
     .image2{
-        width: auto;
         height: 100vh;
     }
 }
 
 img#RobImage{
-    width: auto;
-    height: 100vh;
+    height: 100vh !important;
 }
 
 img#EmilyImage{
-    width: auto;
     height: 100vh;
 }
 
