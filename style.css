@@ -65,24 +65,7 @@ h1
 .karakters-einde{
     width: 150%;
 }
-.b-background{
-    background-color: #c52929;
-    height: 12%;
-    width: 57%;
-}
-.bb-background{
-    background-color: #e23535;
-    padding: 15px;
-}
-.b-background1{
-    background-color: #8f29ca;
-    height: 12%;
-    width: 65%;
-}
-.bb-background1{
-    background-color: #a93ce8;
-    padding: 15px;
-}
+
 .b-background2{
     background-color: #8f29ca;
     height: 12%;
@@ -129,10 +112,7 @@ h1
     color: white;
     padding: 3% 2% 3% 2%;
 }
-.portaal-class{
-  width: 121%;
-  height: auto;
-}
+
 .overgang-class{
     max-width: 300%;
     width: 140%;
@@ -140,9 +120,7 @@ h1
     display: block;
     margin-bottom: 200%;
 }
-.txt-button{
-    font-size: 1vh;
-}
+
 .ster-flip{
    transform: scaleX(-1);
 }
@@ -857,13 +835,102 @@ a:visited{
   margin-top: 58vh
 }
 
-.heartbeat-tekst {
+/*What the*/ 
+
+.heartbeat-tekst1 {
   animation-name: heartbeat;
   animation-duration: 2.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   font-size: 50px;
+  position: absolute;
+  margin-top: 60%; 
+}
+
+/*Unesco?*/ 
+
+.heartbeat-tekst2 {
+  animation-name: heartbeat;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  font-size: 50px;
+  position: absolute;
+  margin-top: 65%; 
+}
+
+/*Unesco scholennetwerk kopje*/ 
+
+.b-background{
+  background-color: #c52929;
+  height: 12%;
+  width: 57%;
   position: absolute; 
+  margin-top: 65%;
+  margin-right: 50%;
+}
+
+/*tekst titel: "Unesco scholennetwerk" + "KW1C Unescoschool"*/ 
+.titel{
+  padding: 15px;
+  font-size: 2.5rem;
+}
+
+
+/*achtergrond van "Unesco scholennetwerk" vak + tekst*/ 
+.bb-background{
+  background-color: #e23535;
+  padding: 15px;
+  font-size: 37px
+}
+
+/*portaal afbeelding*/ 
+.portaal-class{
+  width: 121%;
+  height: auto;
+  position: absolute; 
+  margin-top: 40%; 
+}
+
+/*sterreneffect bij portaal*/ 
+.veel-sterren{
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  margin-left: 30%; 
+  margin-top: 20% 
+}
+
+/*pijltje*/ 
+.arrow{
+  width: 60%;
+  height: 60%;
+  margin-top: 250%;
+  position: static;
+}
+
+/*vliegtuigkw1c*/ 
+.vliegtuigkw1c{
+  position: absolute; 
+  margin-top: 130%;
+}
+
+/*tekstvak kopje: "KW1C Unescoschool" + achtergrond*/ 
+.b-background1{
+  background-color: #8f29ca;
+  height: 12%;
+  width: 65%;
+  position: absolute; 
+  margin-top: 190%; 
+  margin-left: 50%
+}
+
+/*achtergrond van "KW1C Unescoschool" tekstvak*/ 
+.bb-background1{
+  background-color: #a93ce8;
+  padding: 15px;
+  font-size: 36px; 
+  position: absolute;
 }
 
 
@@ -887,18 +954,98 @@ a:visited{
     margin-left: 69%;
   }
 
-  .heartbeat-tekst {
+  .heartbeat-tekst1 {
     animation-name: heartbeat;
     animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    font-size: 25px;
     position: absolute;
+    font-size: 25px;
     margin-left: 37%;
     margin-top: 10%;
- 
-
+    cursor: pointer;
   }
+
   
+  .heartbeat-tekst2 {
+    animation-name: heartbeat;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 37%;
+    margin-top: 12%;
+    cursor: pointer;
+  }
+
+  .b-background{
+    background-color: #c52929;
+    height: 10%;
+    width: 20%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 10%; 
+  }
+
+  .titel{
+    padding: 10px;
+    font-size: 1.6rem;
+  }
+
+  .bb-background{
+    background-color: #e23535;
+    padding: 10px;
+    font-size: 0.8em; 
+  }
+
+  .portaal-class{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 0%;
+  }
+
+  .veel-sterren{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 0%;
+  }
+
+  .arrow{
+    width: 25%;
+    height: 25%;
+    margin-top: 100%;
+    margin-left: 115%;
+    position: static;
+    visibility: visible;
+  }
+
+  .vliegtuigkw1c{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 25%;
+    width: 30%;
+    cursor: pointer;
+  }
+
+  .b-background1{
+    background-color: #8f29ca;
+    height: 10%;
+    width: 20%;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 10%;
+}
+
+  .bb-background1{
+    background-color: #a93ce8;
+    padding: 15px;
+    font-size: 0.8rem; 
+  }
+
 }
 
