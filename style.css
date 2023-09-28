@@ -1,22 +1,21 @@
-
 :root{
-  --hamButton-width: 110px;
-  --hamButton-height: 20px;
-  /*--ham-height: calc(var(--hamButton-height) * 3 + var
-    (--hamButton-gap) * 2); --WERKT NIET */
-  --hamButton-margin: 30px;
-  --hamButton-gap: 1em;
-  --hamButton-top-bottom: 200%; 
-  --hamButton-left: 20%; 
-  --hamButton-border: #000000;  
-  --foreground: #FFFFFF;  
-  --background: #280059;
-  --checked-color: #FF0000; 
-  --animation-timing: 200ms; 
-  --animation-curve: 10ms; 
+    --hamButton-width: 110px;
+    --hamButton-height: 20px;
+    /*--ham-height: calc(var(--hamButton-height) * 3 + var
+      (--hamButton-gap) * 2); --WERKT NIET */
+    --hamButton-margin: 30px;
+    --hamButton-gap: 1em;
+    --hamButton-top-bottom: 200%;
+    --hamButton-left: 20%;
+    --hamButton-border: #000000;
+    --foreground: #FFFFFF;
+    --background: #280059;
+    --checked-color: #FF0000;
+    --animation-timing: 200ms;
+    --animation-curve: 10ms;
 
-  --card-height: 90vh;
-  --card-width: calc(var(--card-height) / 2.6);
+    --card-height: 90vh;
+    --card-width: calc(var(--card-height) / 2.6);
 }
 
 @font-face {
@@ -122,7 +121,7 @@ h1
 }
 
 .ster-flip{
-   transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 .ster-rotate{
     transform: rotate(80deg);
@@ -136,19 +135,19 @@ h1
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-  }
+}
 
-  @keyframes heartbeat {
+@keyframes heartbeat {
     0% {
-      transform: scale(1);
+        transform: scale(1);
     }
     50% {
-      transform: scale(1.3);
+        transform: scale(1.3);
     }
     100% {
-      transform: scale(1);
+        transform: scale(1);
     }
-  }
+}
 
 
 .image1
@@ -231,63 +230,63 @@ h1
     width: 100%;
     height: 100%;
     z-index: 1; /* set z-index higher than other elements */
-  }
-  #text-container {
+}
+#text-container {
     display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+}
 
-  #text1, #text2 {
+#text1, #text2 {
     font-size: 48px;
     font-weight: bold;
     opacity: 0;
     animation-fill-mode: forwards;
-  }
+}
 
-  @keyframes fadeInSlow {
+@keyframes fadeInSlow {
     0% { opacity: 0; }
     100% { opacity: 1; }
-  }
+}
 
-  @keyframes fadeInFast {
+@keyframes fadeInFast {
     0% { opacity: 0; }
     100% { opacity: 1; }
-  }
+}
 
-  .banner {
+.banner {
     width: 130%;
-  }
+}
 
-  .rotate {
+.rotate {
     width: 20%;
     height: 100%;
-  }
+}
 
-  .guardian-tekst{
+.guardian-tekst{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 65px;
     color: white;
     -webkit-text-stroke: 3px #121212;
-  }
-  .guardian-tekst2{
+}
+.guardian-tekst2{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 70px;
-  }
+}
 
-  @property --rotate {
+@property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
     inherits: false;
-  }
+}
 
-  :root {
+:root {
     --card-height: 90vh;
     --card-width: calc(var(--card-height) / 2.6);
-  }
+}
 
-  .card {
+.card {
     background-color: transparent;
     width: var(--card-width);
     height: var(--card-height);
@@ -296,8 +295,8 @@ h1
     display: flex;
     font-size: 1.5em;
     cursor: pointer;
-      border: none;
-  }
+    border: none;
+}
 
 .New_background_Reave
 {
@@ -307,7 +306,7 @@ h1
     width: 80%;
 }
 
-  .card::after {
+.card::after {
     position: absolute;
     content: "";
     top: calc(var(--card-height) / 6);
@@ -318,11 +317,11 @@ h1
     transform: scale(2);
     filter: blur(calc(var(--card-height) / 6));
     background-image: linear-gradient(
-      var(--rotate)
-      , #c1ff7b, #80e24f 43%, yellow);
-      opacity: 1;
+            var(--rotate)
+            , #c1ff7b, #80e24f 43%, yellow);
+    opacity: 1;
     transition: opacity .5s;
-  }
+}
 
 .quiz-vraag{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -380,28 +379,28 @@ input[type="radio"]:checked + .button {
 
 @keyframes spin {
     0% {
-      --rotate: 0deg;
+        --rotate: 0deg;
     }
     100% {
-      --rotate: 360deg;
+        --rotate: 360deg;
     }
-  }
+}
 /*Bovenste is voor Raeve card*/
 @property --rotate {
-  syntax: "<angle>";
-  initial-value: 132deg;
-  inherits: false;
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
 }
 
 .card1 {
-  background-color: transparent;
-  width: var(--card-width);
-  height: var(--card-height);
-  padding: 3px;
-  border-radius: 6px;
-  display: flex;
-  font-size: 1.5em;
-  cursor: pointer;
+    background-color: transparent;
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: 3px;
+    border-radius: 6px;
+    display: flex;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 .New_background_Tianat
@@ -415,96 +414,96 @@ input[type="radio"]:checked + .button {
 
 
 .card1::after {
-  position: absolute;
-  content: "";
-  top: calc(var(--card-height) / 6);
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  transform: scale(2);
-  filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(
-    var(--rotate)
-    , yellow,#f8c210 43%, orange );
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(2);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+            var(--rotate)
+            , yellow,#f8c210 43%, orange );
     opacity: 1;
-  transition: opacity .5s;
+    transition: opacity .5s;
 }
 
 
 @keyframes spin {
-  0% {
-    --rotate: 0deg;
-  }
-  100% {
-    --rotate: 360deg;
-  }
+    0% {
+        --rotate: 0deg;
+    }
+    100% {
+        --rotate: 360deg;
+    }
 }
 /*Bovenste is voor Tianat card*/
 
 @property --rotate {
-  syntax: "<angle>";
-  initial-value: 132deg;
-  inherits: false;
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
 }
 
 .card2 {
-  background-color: transparent;
-  width: var(--card-width);
-  height: var(--card-height);
-  padding: 3px;
-  border-radius: 6px;
-  display: flex;
-  font-size: 1.5em;
-  cursor: pointer;
+    background-color: transparent;
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: 3px;
+    border-radius: 6px;
+    display: flex;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 
 
 .card2::after {
-  position: absolute;
-  content: "";
-  top: calc(var(--card-height) / 6);
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  transform: scale(2);
-  filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(
-    var(--rotate)
-    , #ffbfc3,#ff8991 43%, #ff535e );
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(2);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+            var(--rotate)
+            , #ffbfc3,#ff8991 43%, #ff535e );
     opacity: 1;
-  transition: opacity .5s;
+    transition: opacity .5s;
 }
 
 
 
 @keyframes spin {
-  0% {
-    --rotate: 0deg;
-  }
-  100% {
-    --rotate: 360deg;
-  }
+    0% {
+        --rotate: 0deg;
+    }
+    100% {
+        --rotate: 360deg;
+    }
 }
 /*Bovenste is voor Rob card */
 
 @property --rotate {
-  syntax: "<angle>";
-  initial-value: 132deg;
-  inherits: false;
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
 }
 
 .card3 {
-  background-color: transparent;
-  width: var(--card-width);
-  height: var(--card-height);
-  padding: 3px;
-  border-radius: 6px;
-  display: flex;
-  font-size: 1.5em;
-  cursor: pointer;
+    background-color: transparent;
+    width: var(--card-width);
+    height: var(--card-height);
+    padding: 3px;
+    border-radius: 6px;
+    display: flex;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 .New_background_Limey
 {
@@ -520,49 +519,49 @@ input[type="radio"]:checked + .button {
 }
 
 .card3::after {
-  position: absolute;
-  content: "";
-  top: calc(var(--card-height) / 6);
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  transform: scale(2);
-  filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(
-    var(--rotate)
-    , #b6c6fe,#2cca709f ,#ade1fe 43%, #4cb9f3 );
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(2);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+            var(--rotate)
+            , #b6c6fe,#2cca709f ,#ade1fe 43%, #4cb9f3 );
     opacity: 1;
-  transition: opacity .5s;
+    transition: opacity .5s;
 }
 
 
 @keyframes spin {
-  0% {
-    --rotate: 0deg;
-  }
-  100% {
-    --rotate: 360deg;
-  }
+    0% {
+        --rotate: 0deg;
+    }
+    100% {
+        --rotate: 360deg;
+    }
 }
 /*Bovenste is voor Emily card */
 
 
-  /* Het navigatie menu zelf */
+/* Het navigatie menu zelf */
 .sidenav
 {
-  transition: translate var(--animation-timing);
-  translate: -100%; 
-  height:100%; 
-  width: 100%; 
-  position: fixed; 
-  padding: 0.5rem 1rem;
-  padding-top: 60px; 
-  background-color: #280059;
-  overflow-x: hidden; 
-  z-index: 2; 
-  max-width: 35rem; 
-  min-height: 100vh; 
+    transition: translate var(--animation-timing);
+    translate: -100%;
+    height:100%;
+    width: 100%;
+    position: fixed;
+    padding: 0.5rem 1rem;
+    padding-top: 60px;
+    background-color: #280059;
+    overflow-x: hidden;
+    z-index: 2;
+    max-width: 35rem;
+    min-height: 100vh;
 }
 /* De text binnen het navigatiemenu */
 .sidenav #buttons
@@ -574,9 +573,9 @@ input[type="radio"]:checked + .button {
     transition: 0.25s;
     font-size: 65px;
     color: #ffffff;
-    background-color: #1E7DD6; 
+    background-color: #1E7DD6;
     border-style: solid;
-    border-color: black; 
+    border-color: black;
     margin-top: 50px;
 }
 #button_1
@@ -585,79 +584,79 @@ input[type="radio"]:checked + .button {
 }
 /*overgangseffect voor de tekst*/
 .sidenav #buttons:hover{
-  background-color: #1EC6D6;
+    background-color: #1EC6D6;
 }
 
 /*knop voor navigatiemenu(test) 1em=16px*/
-.hamButton{ 
-  position: fixed; 
-  display: flex; 
-  flex-direction: column; 
-  gap: var(--hamButton-gap);
-  width: max-content; 
-  top: var(--hamButton-margin); 
-  left: var(--hamButton-margin);  
-  z-index: 3;
-  cursor: pointer;   
+.hamButton{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: var(--hamButton-gap);
+    width: max-content;
+    top: var(--hamButton-margin);
+    left: var(--hamButton-margin);
+    z-index: 3;
+    cursor: pointer;
 }
 
 
-.hamButton::before, 
+.hamButton::before,
 .hamButton::after,
 .hamButton input{
-  content: "";
-  position: relative;  
-  width: var(--hamButton-width); 
-  height: var(--hamButton-height); 
-  background-color: var(--foreground);
-  border-radius: 9999px; 
-  transition: opacity var(--animation-timing), width
-  var(--animation-curve), rotate var(--animation-timing),
-  translate var(--animation-timing), background-color var(--animation-timing);
-  border: 5px solid var(--hamButton-border);  
-} 
+    content: "";
+    position: relative;
+    width: var(--hamButton-width);
+    height: var(--hamButton-height);
+    background-color: var(--foreground);
+    border-radius: 9999px;
+    transition: opacity var(--animation-timing), width
+    var(--animation-curve), rotate var(--animation-timing),
+    translate var(--animation-timing), background-color var(--animation-timing);
+    border: 5px solid var(--hamButton-border);
+}
 
 /*checkbox van de knop - is zo niet zichbaar. Dit
-om label klikbaar te maken en hiervoor checkbox te verbergen. 
-Checkbox is hierbij dan overbodig. */ 
+om label klikbaar te maken en hiervoor checkbox te verbergen.
+Checkbox is hierbij dan overbodig. */
 .hamButton input{
-  appearance: none;
-  padding: 0; 
-  margin: 0; 
-  outline: none;
-  pointer-events: none; 
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
 }
 
 /*knop -bovenstuk- wanneer geklikt (::before)*/
 .hamButton:has(input:checked)::before{
-  background: var(--checked-color);
-  rotate: 45deg;
-  top: var(--hamButton-top-bottom);
-  left: var(--hamButton-left);
-  transform-origin: left top;
-  border: 5px solid var(--hamButton-border);
-} 
+    background: var(--checked-color);
+    rotate: 45deg;
+    top: var(--hamButton-top-bottom);
+    left: var(--hamButton-left);
+    transform-origin: left top;
+    border: 5px solid var(--hamButton-border);
+}
 
 /*knop -onderstuk- wanneer geklikt (::after)*/
 .hamButton:has(input:checked)::after{
-  background: var(--checked-color);
-  rotate: -45deg;
-  bottom: var(--hamButton-top-bottom); 
-  left: var(--hamButton-left);
-  transform-origin: left bottom;
-  border: 5px solid var(--hamButton-border);
- 
+    background: var(--checked-color);
+    rotate: -45deg;
+    bottom: var(--hamButton-top-bottom);
+    left: var(--hamButton-left);
+    transform-origin: left bottom;
+    border: 5px solid var(--hamButton-border);
+
 }
 
-/*knop haalt de sidenav tevoorschijn*/ 
+/*knop haalt de sidenav tevoorschijn*/
 .hamButton:has(input:checked) + .sidenav{
-translate: 0; 
+    translate: 0;
 }
 
-/*knop -middenstuk- wanneer geklikt*/ 
+/*knop -middenstuk- wanneer geklikt*/
 .hamButton input:checked{
-  opacity: 0; 
-  width: 0; 
+    opacity: 0;
+    width: 0;
 }
 
 .image2
@@ -669,14 +668,14 @@ translate: 0;
 }
 
 .helden-link-pagina{
-  color: white;
-  font-size: 60px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
 a:visited{
-  color: white;
+    color: white;
 }
 .reave_button
 {
@@ -814,238 +813,287 @@ a:visited{
         width:auto;
     }
 
-    .heldenlijn-class{
-        margin-left: 35%;
+
+    .btn, .btn-quiz{
+        margin-top: 250rem!important;
+        margin-left: 400px;
+        width: 450px;
+    }
+
+    .heldenlijn-class {
+        margin-left: 28% !important;
 
     }
 
-    .karakters-einde{
-        width:100%;
+    .karakters-einde {
+        width: 100%;
+        margin-bottom: 0px!important;
+        margin-top: -30rem;
     }
 
-    .btn-quiz{
 
+    .heartbeat-img {
+        margin-left: 35% !important;
+        width: 150px;
+        height: auto;
     }
+
+    .groen {
+        margin-top: 32% !important;
+    }
+
+    .geel {
+        margin-top: 62% !important;
+    }
+
+    /*home-pagina elementen vóór de media query*/
+    .roze {
+        margin-top: 105% !important;
+    }
+
+    .blauw {
+        margin-top: 180% !important;
+    }
+
+    .leegte {
+        margin-top: 90% !important;
+    }
+
+    .backgroundfont-class {
+        font-size: 20px !important;
+    }
+
+    .tekstvakken {
+        width: 30%;
+    }
+
+    .tekstvakgroen {
+        bottom: 200px;
+    }
+        .tekstvakgeel{
+            bottom: 40%;
+        }
+
 }
 
 
-/*home-pagina elementen vóór de media query*/ 
+/*home-pagina elementen vóór de media query*/
 
 .animatie-gif{
-  margin-top: 58vh
+    margin-top: 58vh
 }
 
-/*What the*/ 
+/*What the*/
 
 .heartbeat-tekst1 {
-  animation-name: heartbeat;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  font-size: 50px;
-  position: absolute;
-  margin-top: 60%; 
+    animation-name: heartbeat;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 60%;
 }
 
-/*Unesco?*/ 
+/*Unesco?*/
 
 .heartbeat-tekst2 {
-  animation-name: heartbeat;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  font-size: 50px;
-  position: absolute;
-  margin-top: 65%; 
+    animation-name: heartbeat;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 65%;
 }
 
-/*Unesco scholennetwerk kopje*/ 
+/*Unesco scholennetwerk kopje*/
 
 .b-background{
-  background-color: #c52929;
-  height: 12%;
-  width: 57%;
-  position: absolute; 
-  margin-top: 65%;
-  margin-right: 50%;
-}
-
-/*tekst titel: "Unesco scholennetwerk" + "KW1C Unescoschool"*/ 
-.titel{
-  padding: 15px;
-  font-size: 2.5rem;
-}
-
-
-/*achtergrond van "Unesco scholennetwerk" vak + tekst*/ 
-.bb-background{
-  background-color: #e23535;
-  padding: 15px;
-  font-size: 37px
-}
-
-/*portaal afbeelding*/ 
-.portaal-class{
-  width: 121%;
-  height: auto;
-  position: absolute; 
-  margin-top: 40%; 
-}
-
-/*sterreneffect bij portaal*/ 
-.veel-sterren{
-  width: 70%;
-  height: 70%;
-  position: absolute;
-  margin-left: 30%; 
-  margin-top: 20% 
-}
-
-/*pijltje*/ 
-.arrow{
-  width: 60%;
-  height: 60%;
-  margin-top: 250%;
-  position: static;
-}
-
-/*vliegtuigkw1c*/ 
-.vliegtuigkw1c{
-  position: absolute; 
-  margin-top: 130%;
-}
-
-/*tekstvak kopje: "KW1C Unescoschool" + achtergrond*/ 
-.b-background1{
-  background-color: #8f29ca;
-  height: 12%;
-  width: 65%;
-  position: absolute; 
-  margin-top: 190%; 
-  margin-left: 50%
-}
-
-/*achtergrond van "KW1C Unescoschool" tekstvak*/ 
-.bb-background1{
-  background-color: #a93ce8;
-  padding: 15px;
-  font-size: 36px; 
-  position: absolute;
-}
-
-
-/*media query voor de home-pagina elementen*/ 
-@media (min-width: 1001px)
-{
-  .animatie-top{
-    margin-top: 0vh
-  } 
-
-  .animatie-jpg{
-    max-width: 40%;
-    margin-left: 75%;
-    height: auto;
-  }
-
-  .beginlijn-class{
-    max-width: 100%;
-    width: 55%;
-    height: auto;
-    margin-left: 69%;
-  }
-
-  .heartbeat-tekst1 {
-    animation-name: heartbeat;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    position: absolute;
-    font-size: 25px;
-    margin-left: 37%;
-    margin-top: 10%;
-    cursor: pointer;
-  }
-
-  
-  .heartbeat-tekst2 {
-    animation-name: heartbeat;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    position: absolute;
-    font-size: 25px;
-    margin-left: 37%;
-    margin-top: 12%;
-    cursor: pointer;
-  }
-
-  .b-background{
     background-color: #c52929;
-    height: 10%;
-    width: 20%;
+    height: 12%;
+    width: 57%;
     position: absolute;
-    margin-top: 15%;
-    margin-left: 10%; 
-  }
-
-  .titel{
-    padding: 10px;
-    font-size: 1.6rem;
-  }
-
-  .bb-background{
-    background-color: #e23535;
-    padding: 10px;
-    font-size: 0.8em; 
-  }
-
-  .portaal-class{
-    width: 40%;
-    height: auto;
-    margin-left: 30%;
-    position: absolute;
-    margin-top: 0%;
-  }
-
-  .veel-sterren{
-    width: 25%;
-    height: auto;
-    position: absolute;
-    margin-left: 39%;
-    margin-top: 0%;
-  }
-
-  .arrow{
-    width: 25%;
-    height: 25%;
-    margin-top: 100%;
-    margin-left: 115%;
-    position: static;
-    visibility: visible;
-  }
-
-  .vliegtuigkw1c{
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 25%;
-    width: 30%;
-    cursor: pointer;
-  }
-
-  .b-background1{
-    background-color: #8f29ca;
-    height: 10%;
-    width: 20%;
-    position: absolute;
-    margin-top: 35%;
-    margin-left: 10%;
+    margin-top: 65%;
+    margin-right: 50%;
 }
 
-  .bb-background1{
+/*tekst titel: "Unesco scholennetwerk" + "KW1C Unescoschool"*/
+.titel{
+    padding: 15px;
+    font-size: 2.5rem;
+}
+
+
+/*achtergrond van "Unesco scholennetwerk" vak + tekst*/
+.bb-background{
+    background-color: #e23535;
+    padding: 15px;
+    font-size: 37px
+}
+
+/*portaal afbeelding*/
+.portaal-class{
+    width: 121%;
+    height: auto;
+    position: absolute;
+    margin-top: 40%;
+}
+
+/*sterreneffect bij portaal*/
+.veel-sterren{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%
+}
+
+/*pijltje*/
+.arrow{
+    width: 60%;
+    height: 60%;
+    margin-top: 250%;
+    position: static;
+}
+
+/*vliegtuigkw1c*/
+.vliegtuigkw1c{
+    position: absolute;
+    margin-top: 130%;
+}
+
+/*tekstvak kopje: "KW1C Unescoschool" + achtergrond*/
+.b-background1{
+    background-color: #8f29ca;
+    height: 12%;
+    width: 65%;
+    position: absolute;
+    margin-top: 190%;
+    margin-left: 50%
+}
+
+/*achtergrond van "KW1C Unescoschool" tekstvak*/
+.bb-background1{
     background-color: #a93ce8;
     padding: 15px;
-    font-size: 0.8rem; 
-  }
+    font-size: 36px;
+    position: absolute;
+}
+
+
+/*media query voor de home-pagina elementen*/
+@media (min-width: 1001px)
+{
+    .animatie-top{
+        margin-top: 0vh
+    }
+
+    .animatie-jpg{
+        max-width: 40%;
+        margin-left: 75%;
+        height: auto;
+    }
+
+    .beginlijn-class{
+        max-width: 100%;
+        width: 55%;
+        height: auto;
+        margin-left: 69%;
+    }
+
+    .heartbeat-tekst1 {
+        animation-name: heartbeat;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        position: absolute;
+        font-size: 25px;
+        margin-left: 37%;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+
+
+    .heartbeat-tekst2 {
+        animation-name: heartbeat;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        position: absolute;
+        font-size: 25px;
+        margin-left: 37%;
+        margin-top: 12%;
+        cursor: pointer;
+    }
+
+    .b-background{
+        background-color: #c52929;
+        height: 10%;
+        width: 20%;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    .titel{
+        padding: 10px;
+        font-size: 1.6rem;
+    }
+
+    .bb-background{
+        background-color: #e23535;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .portaal-class{
+        width: 40%;
+        height: auto;
+        margin-left: 30%;
+        position: absolute;
+        margin-top: 0%;
+    }
+
+    .veel-sterren{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        margin-left: 39%;
+        margin-top: 0%;
+    }
+
+    .arrow{
+        width: 25%;
+        height: 25%;
+        margin-top: 100%;
+        margin-left: 115%;
+        position: static;
+        visibility: visible;
+    }
+
+    .vliegtuigkw1c{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 30%;
+        cursor: pointer;
+    }
+
+    .b-background1{
+        background-color: #8f29ca;
+        height: 10%;
+        width: 20%;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 10%;
+    }
+
+    .bb-background1{
+        background-color: #a93ce8;
+        padding: 15px;
+        font-size: 0.8rem;
+    }
 
 }
 
