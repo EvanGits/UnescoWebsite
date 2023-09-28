@@ -77,6 +77,9 @@ h1
     background-color: #a3e06d;
     height: 12%;
     width: 50%;
+    position: absolute;
+    margin-top: 55%;
+    margin-right: 50%;
 }
 .bb-background3{
     background-color: #c2f496 ;
@@ -135,6 +138,10 @@ h1
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 45%;
+
 }
 
 @keyframes heartbeat {
@@ -814,45 +821,68 @@ a:visited{
     }
 
 
+    .img-fluid{
+        max-width: 100%;
+        width: 50%;
+        margin-left:285px;
+
+    }
+
+
     .btn, .btn-quiz{
-        margin-top: 250rem!important;
-        margin-left: 400px;
-        width: 450px;
+        margin-top: 136rem!important;
+        margin-left: 543px;
+        width: 240px;
+        font-size: 25px!important;
     }
 
     .heldenlijn-class {
-        margin-left: 28% !important;
+        margin-left: 67% !important;
+        max-width: 300%;
+        width: 75%;
+        height: auto;
+        margin-bottom: -90rem;
 
     }
 
+    .sterrenportaal{
+    width: 145px;
+    margin-left: 335px;
+    }
+.sterrenplaatsen{
+    margin-left: 335px!important;
+}
     .karakters-einde {
-        width: 100%;
+        max-width: 100%;
+        width: 60%;
         margin-bottom: 0px!important;
-        margin-top: -30rem;
+        margin-top: 3px;
+        margin-left: 262px;
+
     }
 
 
     .heartbeat-img {
-        margin-left: 35% !important;
-        width: 150px;
+        margin-left: 41% !important;
+        width: 100px;
         height: auto;
     }
 
     .groen {
-        margin-top: 32% !important;
+        margin-top: 16% !important;
     }
 
     .geel {
-        margin-top: 62% !important;
+        margin-top: 33% !important;
     }
 
     /*home-pagina elementen vóór de media query*/
     .roze {
-        margin-top: 105% !important;
+        margin-top: 57% !important;
     }
 
     .blauw {
-        margin-top: 180% !important;
+        margin-top: 100% !important;
     }
 
     .leegte {

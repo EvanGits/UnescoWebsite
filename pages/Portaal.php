@@ -6,25 +6,25 @@
        
 <!--Hierin staan de afbeeldingen voor het portaal en met behulp van boostrap is het ook responsive-->
   <div class="container">
-        <img src="<?= ROOT ?>images/sterren.gif" style="position: absolute; margin-left: 5%; margin-top: 5%;">
-        <img src="<?= ROOT ?>images/sterren.gif" style="position: absolute; margin-left: 30%;">
-        <img src="<?= ROOT ?>images/sterren.gif" style="position: absolute; margin-left: 58%;" class="ster-flip">
-        <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute; margin-left: 40%;">
-        <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;">
+        <img src="<?= ROOT ?>images/sterren.gif" style="position: absolute; margin-left: 5%; margin-top: 5%;" class="sterrenportaal sterrenplaatsen ">
+        <img src="<?= ROOT ?>images/sterren.gif" style="position: absolute; margin-left: 30%;" class="sterrenportaal">
+        <img src="<?= ROOT ?>images/sterren.gif" style="position: absolute; margin-left: 58%;" class="ster-flip sterrenportaal">
+        <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute; margin-left: 40%;" class="sterrenportaal">
+        <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;" class="sterrenportaal ">
     <div class="row"> 
         <a href="../index.php">
             <div class="col-12 mx-5 d-flex justify-content-center">
                     <img src="<?= ROOT ?>images/portaaluitgang.png" style="position: absolute;" class="img-fluid">
-                    <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;">
+                    <img src="<?= ROOT ?>images/sterren2.gif" style="position: absolute;" class="sterrenportaal">
             </div>
         </a>
         <div class="col-12 col-lg-6 mx-5 d-flex justify-content-center text-kleur">
         <!--Buttons met informatie-->
 
         <p>
-                <img src="<?= ROOT ?>images/duurzaamheid_icoon.png" class="heartbeat-img groen " style="position: absolute; margin-top: 40%; margin-left: 45%;" data-toggle="collapse" data-target="#duurzaam">
+                <img src="<?= ROOT ?>images/duurzaamheid_icoon.png" class="heartbeat-img groen " data-toggle="collapse" data-target="#duurzaam">
 
-                <div class="tekstvakken b-background3 collapse show tekstvakgroen" style="position: absolute; margin-top: 55%; margin-right: 50%;" id="duurzaam">
+                <div class="tekstvakken b-background3 collapse show tekstvakgroen" id="duurzaam">
                         <h1>Duurzaamheid</h1>
                         <p class="txt-button bb-background3 backgroundfont-class " style="font-size: 28px;">
                         Duurzaamheid is van belang voor de toekomst van onze planeet en de mensheid. <br>
