@@ -876,7 +876,6 @@ a:visited{
         margin-top: 33% !important;
     }
 
-    /*home-pagina elementen vóór de media query*/
     .roze {
         margin-top: 57% !important;
     }
@@ -914,116 +913,6 @@ a:visited{
         margin-top: 1400px!important;
     }
 
-    .animatie-top{
-        margin-top: 0vh
-    }
-
-    .animatie-jpg{
-        max-width: 40%;
-        margin-left: 75%;
-        height: auto;
-    }
-
-    .beginlijn-class{
-        max-width: 100%;
-        width: 55%;
-        height: auto;
-        margin-left: 69%;
-    }
-
-    .heartbeat-tekst1 {
-        animation-name: heartbeat;
-        animation-duration: 2.5s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        position: absolute;
-        font-size: 25px;
-        margin-left: 37%;
-        margin-top: 10%;
-        cursor: pointer;
-    }
-
-
-    .heartbeat-tekst2 {
-        animation-name: heartbeat;
-        animation-duration: 2.5s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        position: absolute;
-        font-size: 25px;
-        margin-left: 37%;
-        margin-top: 12%;
-        cursor: pointer;
-    }
-
-    .b-background{
-        background-color: #c52929;
-        height: 10%;
-        width: 20%;
-        position: absolute;
-        margin-top: 15%;
-        margin-left: 10%;
-    }
-
-    .titel{
-        padding: 10px;
-        font-size: 1.6rem;
-    }
-
-    .bb-background{
-        background-color: #e23535;
-        padding: 10px;
-        font-size: 0.8em;
-    }
-
-    .portaal-class{
-        width: 40%;
-        height: auto;
-        margin-left: 30%;
-        position: absolute;
-        margin-top: 0%;
-    }
-
-    .veel-sterren{
-        width: 25%;
-        height: auto;
-        position: absolute;
-        margin-left: 39%;
-        margin-top: 0%;
-    }
-
-    .arrow{
-        width: 25%;
-        height: 25%;
-        margin-top: 100%;
-        margin-left: 115%;
-        position: static;
-        visibility: visible;
-    }
-
-    .vliegtuigkw1c{
-        position: absolute;
-        margin-top: 20%;
-        margin-left: 25%;
-        width: 30%;
-        cursor: pointer;
-    }
-
-    .b-background1{
-        background-color: #8f29ca;
-        height: 10%;
-        width: 20%;
-        position: absolute;
-        margin-top: 35%;
-        margin-left: 10%;
-    }
-
-    .bb-background1{
-        background-color: #a93ce8;
-        padding: 15px;
-        font-size: 0.8rem;
-    }
-}
 
 
 /*home-pagina elementen vóór de media query*/
@@ -1134,6 +1023,115 @@ a:visited{
 /*media query voor de home-pagina elementen*/
 @media (min-width: 1001px)
 {
+    .animatie-top{
+        margin-top: 0vh
+    }
 
+    .animatie-jpg{
+        max-width: 40%;
+        margin-left: 75%;
+        height: auto;
+    }
+
+    .beginlijn-class{
+        max-width: 100%;
+        width: 55%;
+        height: auto;
+        margin-left: 69%;
+    }
+
+    .heartbeat-tekst1 {
+        animation-name: heartbeat;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        position: absolute;
+        font-size: 25px;
+        margin-left: 37%;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+
+
+    .heartbeat-tekst2 {
+        animation-name: heartbeat;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        position: absolute;
+        font-size: 25px;
+        margin-left: 37%;
+        margin-top: 12%;
+        cursor: pointer;
+    }
+
+    .b-background{
+        background-color: #c52929;
+        height: 10%;
+        width: 20%;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    .titel{
+        padding: 10px;
+        font-size: 1.6rem;
+    }
+
+    .bb-background{
+        background-color: #e23535;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .portaal-class{
+        width: 40%;
+        height: auto;
+        margin-left: 30%;
+        position: absolute;
+        margin-top: 0%;
+    }
+
+    .veel-sterren{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        margin-left: 39%;
+        margin-top: 0%;
+    }
+
+    .arrow{
+        width: 25%;
+        height: 25%;
+        margin-top: 100%;
+        margin-left: 115%;
+        position: static;
+        visibility: visible;
+    }
+
+    .vliegtuigkw1c{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 30%;
+        cursor: pointer;
+    }
+
+    .b-background1{
+        background-color: #8f29ca;
+        height: 10%;
+        width: 20%;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 10%;
+    }
+
+    .bb-background1{
+        background-color: #a93ce8;
+        padding: 15px;
+        font-size: 0.8rem;
+    }
+}
 }
 
