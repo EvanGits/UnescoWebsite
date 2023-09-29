@@ -60,7 +60,7 @@
         </p>
         <p>
                 <img src="<?= ROOT ?>images/wereldburgerschap_icoon.png" class="heartbeat-img blauw" style="position: absolute; margin-top: 270%; margin-left: 45%;" data-toggle="collapse" data-target="#wereld">
-                <div class="tekstvakken b-background6 collapse show tekstblauw" style="position: absolute; margin-top: 285%; margin-left: 50%;" id="wereld">
+                <div class="blauw_link tekstvakken b-background6 collapse show tekstblauw" style="position: absolute; margin-top: 285%; margin-left: 50%;" id="wereld">
                         <h1>Wereldburgerschap </h1>
                         <p class="txt-button bb-background6 backgroundfont-class tekstvakblauw" style="font-size: 28px;">
                         Als wereldburgers zijn we samen verantwoordelijk voor elkaar en de wereld. <br>
