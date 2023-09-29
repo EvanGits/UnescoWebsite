@@ -912,17 +912,15 @@ a:visited{
     {
         margin-top: 1400px!important;
     }
-
+}
 
 
 /*home-pagina elementen vóór de media query*/
-
 .animatie-gif{
     margin-top: 58vh
 }
 
 /*What the*/
-
 .heartbeat-tekst1 {
     animation-name: heartbeat;
     animation-duration: 2.5s;
@@ -961,7 +959,6 @@ a:visited{
     padding: 15px;
     font-size: 2.5rem;
 }
-
 
 /*achtergrond van "Unesco scholennetwerk" vak + tekst*/
 .bb-background{
@@ -1133,5 +1130,5 @@ a:visited{
         font-size: 0.8rem;
     }
 }
-}
+
 
