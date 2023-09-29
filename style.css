@@ -831,7 +831,7 @@ a:visited{
 
     .btn, .btn-quiz{
         margin-top: 136rem!important;
-        margin-left: 543px;
+        margin-left: 533px;
         width: 240px;
         font-size: 25px!important;
     }
@@ -902,6 +902,7 @@ a:visited{
     }
     .tekstvakgeel{
         bottom: 35%;
+        left: 88px;
     }
 
     .tekstvakroze{
@@ -910,7 +911,7 @@ a:visited{
 
     .blauw_link
     {
-        margin-top: 1300px!important;
+        margin-top: 1400px!important;
     }
 
     .animatie-top{

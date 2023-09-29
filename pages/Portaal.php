@@ -27,8 +27,8 @@
                 <div class="tekstvakken b-background3 collapse show tekstvakgroen" id="duurzaam">
                         <h1>Duurzaamheid</h1>
                         <p class="txt-button bb-background3 backgroundfont-class " style="font-size: 28px;">
-                        Duurzaamheid is van belang voor de toekomst van onze planeet en de mensheid. <br>
-                        Hoe ziet jouw wereld eruit over 25 jaar? <br>
+                        Duurzaamheid is van belang voor de toekomst van onze planeet en de mensheid.
+                        Hoe ziet jouw wereld eruit over 25 jaar?
                         Zijn er dan nog olifanten? Reizen we nog in vliegtuigen?
                         </p>                           
                 </div>
@@ -42,7 +42,7 @@
                                 Mensenrechten gelden voor iedereen, ongeacht waar je geboren bent of wie je bent.
                                 Vrede is afwezigheid<br> van geweld en oorlog.
                                 Hoe kunnen we zorgen dat mensenrechten beschermd worden?
-                                Is het mogelijk om wereldvrede te bereiken?<br> En wat is jouw rol daarin?
+                                Is het mogelijk om wereldvrede te bereiken? En wat is jouw rol daarin?
                             </p>
                 </div>
         </p>
@@ -63,8 +63,8 @@
                 <div class="blauw_link tekstvakken b-background6 collapse show tekstblauw" style="position: absolute; margin-top: 285%; margin-left: 50%;" id="wereld">
                         <h1>Wereldburgerschap </h1>
                         <p class="txt-button bb-background6 backgroundfont-class tekstvakblauw" style="font-size: 28px;">
-                        Als wereldburgers zijn we samen verantwoordelijk voor elkaar en de wereld. <br>
-                        We gaan voor een betere wereld. <br>
+                        Als wereldburgers zijn we samen verantwoordelijk voor elkaar en de wereld.
+                        We gaan voor een betere wereld.
                         Hoe werk je samen met mensen die anders denken dan jij? <br>
                         Hoe maak jij de wereld een stukje beter?
                         </p>                           
