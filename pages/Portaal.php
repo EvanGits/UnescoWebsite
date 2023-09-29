@@ -39,20 +39,21 @@
                     <h1>Vrede en mensenrechten</h1>
                             <p class="txt-button bb-background4 backgroundfont-class tekstvakgeel" style="font-size: 28px;">
 
-                                Mensenrechten gelden voor iedereen, ongeacht waar je geboren bent of wie je bent. <br>
-                                Vrede is afwezigheid van geweld en oorlog. <br>
-                                Hoe kunnen we zorgen dat mensenrechten beschermd worden? <br>
-                                Is het mogelijk om wereldvrede te bereiken? En wat is jouw rol daarin?
+                                Mensenrechten gelden voor iedereen, ongeacht waar je geboren bent of wie je bent.
+                                Vrede is afwezigheid<br> van geweld en oorlog.
+                                Hoe kunnen we zorgen dat mensenrechten beschermd worden?
+                                Is het mogelijk om wereldvrede te bereiken?<br> En wat is jouw rol daarin?
                             </p>
                 </div>
         </p>
+
         <p>
                 <img src="<?= ROOT ?>images/intercultureel_leren.png"class="heartbeat-img roze" style="position: absolute; margin-top: 165%; margin-left: 45%;" data-toggle="collapse" data-target="#cultuur">
                 <div class="tekstvakken b-background5 collapse show tekstvakroze" style="position: absolute; margin-top: 180%; margin-right: 50%;" id="cultuur">
                         <h1>Intercultureel</h1>
                         <p class="txt-button bb-background5 backgroundfont-class tekstvakroze " style="font-size: 28px;">
                         Intercultureel leren betekent het ontwikkelen van kennis over andere culturen en andere manieren van leven. <br>
-                        Als je openstaat voor andere culturen gaat er een wereld voor je open. <br> 
+                        Als je openstaat voor andere culturen gaat er een wereld voor je open.
                         Wat wil jij leren van andere culturen?
                         </p>                           
                 </div>
@@ -60,8 +61,8 @@
         <p>
                 <img src="<?= ROOT ?>images/wereldburgerschap_icoon.png" class="heartbeat-img blauw" style="position: absolute; margin-top: 270%; margin-left: 45%;" data-toggle="collapse" data-target="#wereld">
                 <div class="tekstvakken b-background6 collapse show tekstblauw" style="position: absolute; margin-top: 285%; margin-left: 50%;" id="wereld">
-                        <h1>Wereldburgerschap</h1>
-                        <p class="txt-button bb-background6 backgroundfont-class tekstblauw" style="font-size: 28px;">
+                        <h1>Wereldburgerschap </h1>
+                        <p class="txt-button bb-background6 backgroundfont-class tekstvakblauw" style="font-size: 28px;">
                         Als wereldburgers zijn we samen verantwoordelijk voor elkaar en de wereld. <br>
                         We gaan voor een betere wereld. <br>
                         Hoe werk je samen met mensen die anders denken dan jij? <br>
@@ -83,7 +84,7 @@
 <style>
     .btn-quiz:hover
     {
-        background-color: #abd085;
+         background-color: #abd085;
         color: white;
     }
     .heartbeat-img

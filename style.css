@@ -894,14 +894,22 @@ a:visited{
     }
 
     .tekstvakken {
-        width: 30%;
+        width: 37%;
     }
 
     .tekstvakgroen {
-        bottom: 200px;
+        bottom: 395px;
     }
         .tekstvakgeel{
-            bottom: 40%;
+            bottom: 35%;
+        }
+
+        .tekstvakroze{
+        top:-120rem;
+        }
+
+        .tekstvakblauw{
+        margin-top: 200% !important;
         }
 
 }
