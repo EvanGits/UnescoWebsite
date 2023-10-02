@@ -696,6 +696,106 @@ a:visited{
 {
     margin-top: -200px!important;
 }
+/*home-pagina elementen vóór de media query*/
+.animatie-gif{
+    margin-top: 58vh
+}
+
+/*What the*/
+.heartbeat-tekst1 {
+    animation-name: heartbeat;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 60%;
+}
+
+/*Unesco?*/
+
+.heartbeat-tekst2 {
+    animation-name: heartbeat;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 65%;
+}
+
+/*Unesco scholennetwerk kopje*/
+
+.b-background{
+    background-color: #c52929;
+    height: 12%;
+    width: 57%;
+    position: absolute;
+    margin-top: 65%;
+    margin-right: 50%;
+}
+
+/*tekst titel: "Unesco scholennetwerk" + "KW1C Unescoschool"*/
+.titel{
+    padding: 15px;
+    font-size: 2.5rem;
+}
+
+/*achtergrond van "Unesco scholennetwerk" vak + tekst*/
+.bb-background{
+    background-color: #e23535;
+    padding: 15px;
+    font-size: 37px
+}
+
+/*portaal afbeelding*/
+.portaal-class{
+    width: 121%;
+    height: auto;
+    position: absolute;
+    margin-top: 40%;
+}
+
+/*sterreneffect bij portaal*/
+.veel-sterren{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%
+}
+
+/*pijltje*/
+.arrow{
+    width: 60%;
+    height: 60%;
+    margin-top: 250%;
+    position: static;
+}
+
+/*vliegtuigkw1c*/
+.vliegtuigkw1c{
+    position: absolute;
+    margin-top: 130%;
+}
+
+/*tekstvak kopje: "KW1C Unescoschool" + achtergrond*/
+.b-background1{
+    background-color: #8f29ca;
+    height: 12%;
+    width: 65%;
+    position: absolute;
+    margin-top: 190%;
+    margin-left: 50%
+}
+
+/*achtergrond van "KW1C Unescoschool" tekstvak*/
+.bb-background1{
+    background-color: #a93ce8;
+    padding: 15px;
+    font-size: 36px;
+    position: absolute;
+}
 @media (orientation: landscape)
 {
 
@@ -849,9 +949,9 @@ a:visited{
     width: 145px;
     margin-left: 335px;
     }
-.sterrenplaatsen{
-    margin-left: 335px!important;
-}
+    .sterrenplaatsen{
+        margin-left: 335px!important;
+    }
     .karakters-einde {
         max-width: 100%;
         width: 60%;
@@ -912,114 +1012,8 @@ a:visited{
     {
         margin-top: 1400px!important;
     }
-}
 
-
-/*home-pagina elementen vóór de media query*/
-.animatie-gif{
-    margin-top: 58vh
-}
-
-/*What the*/
-.heartbeat-tekst1 {
-    animation-name: heartbeat;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    font-size: 50px;
-    position: absolute;
-    margin-top: 60%;
-}
-
-/*Unesco?*/
-
-.heartbeat-tekst2 {
-    animation-name: heartbeat;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    font-size: 50px;
-    position: absolute;
-    margin-top: 65%;
-}
-
-/*Unesco scholennetwerk kopje*/
-
-.b-background{
-    background-color: #c52929;
-    height: 12%;
-    width: 57%;
-    position: absolute;
-    margin-top: 65%;
-    margin-right: 50%;
-}
-
-/*tekst titel: "Unesco scholennetwerk" + "KW1C Unescoschool"*/
-.titel{
-    padding: 15px;
-    font-size: 2.5rem;
-}
-
-/*achtergrond van "Unesco scholennetwerk" vak + tekst*/
-.bb-background{
-    background-color: #e23535;
-    padding: 15px;
-    font-size: 37px
-}
-
-/*portaal afbeelding*/
-.portaal-class{
-    width: 121%;
-    height: auto;
-    position: absolute;
-    margin-top: 40%;
-}
-
-/*sterreneffect bij portaal*/
-.veel-sterren{
-    width: 70%;
-    height: 70%;
-    position: absolute;
-    margin-left: 30%;
-    margin-top: 20%
-}
-
-/*pijltje*/
-.arrow{
-    width: 60%;
-    height: 60%;
-    margin-top: 250%;
-    position: static;
-}
-
-/*vliegtuigkw1c*/
-.vliegtuigkw1c{
-    position: absolute;
-    margin-top: 130%;
-}
-
-/*tekstvak kopje: "KW1C Unescoschool" + achtergrond*/
-.b-background1{
-    background-color: #8f29ca;
-    height: 12%;
-    width: 65%;
-    position: absolute;
-    margin-top: 190%;
-    margin-left: 50%
-}
-
-/*achtergrond van "KW1C Unescoschool" tekstvak*/
-.bb-background1{
-    background-color: #a93ce8;
-    padding: 15px;
-    font-size: 36px;
-    position: absolute;
-}
-
-
-/*media query voor de home-pagina elementen*/
-@media (min-width: 1001px)
-{
+    /*home*/
     .animatie-top{
         margin-top: 0vh
     }
@@ -1130,5 +1124,13 @@ a:visited{
         font-size: 0.8rem;
     }
 }
+/*    einde media query*/
+
+
+
+
+
+
+
 
 
