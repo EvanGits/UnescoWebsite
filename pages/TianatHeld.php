@@ -46,7 +46,7 @@ include "../includes/Hamburger.php";
             </div>
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center">              
-            <img onclick="Spinny()" class="rotate heartbeat-img" src="<?= ROOT ?>images/rotate.png" style="margin-right: 35%;">    
+            <img onclick="Spinny()" class="rotate heartbeat-img" src="<?= ROOT ?>images/rotate.png" style="margin-left: -38%;">
         </div>
         <div class="col-12 d-flex justify-content-center align-items-center text-center new_place" style="margin-left: 30%;">
             <a id="helden-link" class="helden-link-pagina" href="Helden.php" style="margin-top: 47%;"><strong>klik hier voor alle helden!</strong></a>
