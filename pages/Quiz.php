@@ -186,7 +186,7 @@ if($quizEnded){
         <h4>Total Points: <?php echo $totalPoints; ?></h4>
     <?php else: ?>
         <form method="post" action="">
-            <div style="position: absolute; top: 0; left: 0; width: 100%;   margin-top: 30%;">
+            <div class="quiz_top" style="position: absolute; top: 0; left: 0; width: 100%;   margin-top: 30%;">
             <?php
             // Get the current category, question, and options
             $category = array_keys($categories)[$categoryIndex];

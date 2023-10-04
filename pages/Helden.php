@@ -2,7 +2,7 @@
 include "../includes/header.php";
 include "../includes/Hamburger.php";
 ?>
-        <div class="container col-12">
+        <div class="container col-12 helden_width">
             <div class="row">
                 <div class="col-6 d-flex justify-content-center align-items-center">
                     <img id="VeraImage" class="image2 px-4 py-3" src="<?= ROOT ?>images/vera.png">

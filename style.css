@@ -831,109 +831,109 @@ a:visited{
     }
 }
 
-@media (min-width: 1001px)
-{
-    .reave_button
-    {
-        margin-top: 0!important;
+@media (min-width: 1001px) {
+    .reave_button {
+        margin-top: 0 !important;
     }
-    .bohr_button
-    {
-        margin-top: 0!important;
+
+    .bohr_button {
+        margin-top: 0 !important;
     }
-    .tianat_button, .limey_button
-    {
-        margin-top: 0!important;
+
+    .tianat_button, .limey_button {
+        margin-top: 0 !important;
     }
-    .guardian-tekst2
-    {
+
+    .guardian-tekst2 {
         margin-top: 10px !important;
         margin-left: 220px !important;
         font-size: 40px;
     }
-    .banner
-    {
+
+    .banner {
         width: auto;
         height: 50vh;
         float: right;
         margin-right: 3vw;
     }
-    .justify-content-center
-    {
+
+    .justify-content-center {
         justify-content: flex-start !important;
     }
-    #TianatImage, #BohrImage, #LimeyImage ,#RaeveImage
-    {
+
+    #TianatImage, #BohrImage, #LimeyImage, #RaeveImage {
         margin-top: 20vh !important;
-        height: 65vh ;
+        height: 65vh;
         margin-left: 70px !important;
     }
-    .rotate
-    {
+
+    .rotate {
         width: auto;
         height: 70px;
         margin-left: 150px;
     }
-    .New_background_Tianat, .card1, .new_background_bhor, .card2, .New_background_Reave, .card3, .New_background_Limey, .card
-    {
+
+    .New_background_Tianat, .card1, .new_background_bhor, .card2, .New_background_Reave, .card3, .New_background_Limey, .card {
         margin-left: 370px !important;
         margin-top: 20vh !important;
         width: 50vw !important;
     }
-    .tekst_helden
-    {
+
+    .tekst_helden {
         font-size: 20px !important;
     }
-    .new_place
-    {
-        justify-content: flex-end!important;
-        margin-left: 0!important;
+
+    .new_place {
+        justify-content: flex-end !important;
+        margin-left: 0 !important;
     }
-    .helden-link-pagina
-    {
+
+    .helden-link-pagina {
         font-size: 25px;
     }
-    #helden-link
-    {
-        margin-top: -170px!important;
+
+    #helden-link {
+        margin-top: -170px !important;
         width: 17vw;
         margin-right: 3vw;
     }
-    .card1::after, .card2::after, .card3::after, .card::after
-    {
+
+    .card1::after, .card2::after, .card3::after, .card::after {
         content: none;
     }
-    .textgrootte
-    {
+
+    .textgrootte {
         font-size: 20px;
     }
-    .image2{
+
+    .image2 {
         height: 100vh;
         width: auto;
     }
-    img#RobImage{
+
+    img#RobImage {
         height: 100vh !important;
     }
 
-    img#EmilyImage{
+    img#EmilyImage {
         height: 100vh;
-        width:auto;
+        width: auto;
     }
 
 
-    .img-fluid{
+    .img-fluid {
         max-width: 100%;
         width: 50%;
-        margin-left:285px;
+        margin-left: 285px;
 
     }
 
 
-    .btn, .btn-quiz{
-        margin-top: 136rem!important;
+    .btn, .btn-quiz {
+        margin-top: 136rem !important;
         margin-left: 533px;
         width: 240px;
-        font-size: 25px!important;
+        font-size: 25px !important;
     }
 
     .heldenlijn-class {
@@ -945,17 +945,19 @@ a:visited{
 
     }
 
-    .sterrenportaal{
-    width: 145px;
-    margin-left: 335px;
+    .sterrenportaal {
+        width: 145px;
+        margin-left: 335px;
     }
-    .sterrenplaatsen{
-        margin-left: 335px!important;
+
+    .sterrenplaatsen {
+        margin-left: 335px !important;
     }
+
     .karakters-einde {
         max-width: 100%;
         width: 60%;
-        margin-bottom: 0px!important;
+        margin-bottom: 0px !important;
         margin-top: 3px;
         margin-left: 262px;
 
@@ -999,32 +1001,32 @@ a:visited{
     .tekstvakgroen {
         bottom: 395px;
     }
-    .tekstvakgeel{
+
+    .tekstvakgeel {
         bottom: 35%;
         left: 88px;
     }
 
-    .tekstvakroze{
-    top:-120rem;
+    .tekstvakroze {
+        top: -120rem;
     }
 
-    .blauw_link
-    {
-        margin-top: 1400px!important;
+    .blauw_link {
+        margin-top: 1400px !important;
     }
 
     /*home*/
-    .animatie-top{
+    .animatie-top {
         margin-top: 0vh
     }
 
-    .animatie-jpg{
+    .animatie-jpg {
         max-width: 40%;
         margin-left: 75%;
         height: auto;
     }
 
-    .beginlijn-class{
+    .beginlijn-class {
         max-width: 100%;
         width: 55%;
         height: auto;
@@ -1056,7 +1058,7 @@ a:visited{
         cursor: pointer;
     }
 
-    .b-background{
+    .b-background {
         background-color: #c52929;
         height: 10%;
         width: 20%;
@@ -1065,18 +1067,18 @@ a:visited{
         margin-left: 10%;
     }
 
-    .titel{
+    .titel {
         padding: 10px;
         font-size: 1.6rem;
     }
 
-    .bb-background{
+    .bb-background {
         background-color: #e23535;
         padding: 10px;
         font-size: 0.8em;
     }
 
-    .portaal-class{
+    .portaal-class {
         width: 40%;
         height: auto;
         margin-left: 30%;
@@ -1084,7 +1086,7 @@ a:visited{
         margin-top: 0%;
     }
 
-    .veel-sterren{
+    .veel-sterren {
         width: 25%;
         height: auto;
         position: absolute;
@@ -1092,7 +1094,7 @@ a:visited{
         margin-top: 0%;
     }
 
-    .arrow{
+    .arrow {
         width: 25%;
         height: 25%;
         margin-top: 100%;
@@ -1101,7 +1103,7 @@ a:visited{
         visibility: visible;
     }
 
-    .vliegtuigkw1c{
+    .vliegtuigkw1c {
         position: absolute;
         margin-top: 20%;
         margin-left: 25%;
@@ -1109,7 +1111,7 @@ a:visited{
         cursor: pointer;
     }
 
-    .b-background1{
+    .b-background1 {
         background-color: #8f29ca;
         height: 10%;
         width: 20%;
@@ -1118,10 +1120,23 @@ a:visited{
         margin-left: 10%;
     }
 
-    .bb-background1{
+    .bb-background1 {
         background-color: #a93ce8;
         padding: 15px;
         font-size: 0.8rem;
+    }
+
+    .quiz_top
+    {
+        margin-top: 5%!important;
+    }
+    .QuizAchtergrond
+    {
+        overflow-y: hidden;
+    }
+    .helden_width
+    {
+        width: 70vw;
     }
 }
 /*    einde media query*/
