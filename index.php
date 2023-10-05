@@ -7,12 +7,11 @@ include "includes/Hamburger.php";
         <main>
             <!-- Start pagina, met behulp van de javascript code krijg je het effect dat je door het portaal gaat-->
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6 d-flex mx-5 justify-content-center align-items-center position-absolute">
-                        <div class="max-width: 646vh;">
-                            <img src="<?= ROOT ?>images/arrow.gif" class="arrow">
-                        </div>
+                <div class="row" style= "position: relative">
+                    <div class="col-12 col-lg-6 d-flex mx-5 justify-content-center align-items-center">
+                        <img src="<?= ROOT ?>images/arrow.gif" class="arrow">
                     </div>
+        
                     <div class="animatie-top col-12 col-lg-6 d-flex mx-5 justify-content-center align-items-center">
                         <div class="max-width: 646vh;">
                             <img src="<?= ROOT ?>images/animatie.gif" class="animatie-jpg img-fluid">
@@ -32,9 +31,7 @@ include "includes/Hamburger.php";
                                 zo hun steentje bij aan vrede en verdraagzaamheid.
                             </p>
                         </div>
-                        </p>
-                        <img src="<?= ROOT ?>images/vliegtuigkw1c.gif" class="vliegtuigkw1c" data-toggle="collapse" data-target="#kw1c">
-                        <p>
+                 
                         <div class="b-background1 collapse show" id="kw1c">
                             <div class="titel">KW1C UNESCO SCHOOL</div>
                             <p class="bb-background1">
@@ -49,6 +46,10 @@ include "includes/Hamburger.php";
                 </div>
             </div>
             <div class="col-6" >
+                </p>
+                <img src="<?= ROOT ?>images/vliegtuigkw1c.gif" class="vliegtuigkw1c" data-toggle="collapse" data-target="#kw1c">
+                <p>
+
                 <a href="<?= ROOT ?>pages/Portaal.php" id="image1">
                     <img src="<?= ROOT ?>images/portaal.png" id="portaal1" class="portaal-class">
                     <img src="<?= ROOT ?>images/sterrenveel.gif" id="portaal1" class="veel-sterren">
