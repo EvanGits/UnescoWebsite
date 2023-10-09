@@ -1043,6 +1043,7 @@ a:visited{
         position: absolute;
         font-size: 25px;
         margin-top: 10%;
+        margin-left: 37%;
         cursor: pointer;
     }
 
@@ -1055,6 +1056,8 @@ a:visited{
         position: absolute;
         font-size: 25px;
         margin-top: 12%;
+        margin-left: 37%;
+
         cursor: pointer;
     }
 
@@ -1101,7 +1104,7 @@ a:visited{
         width: 10%;
         height: auto;
         top: 35%;
-        position: absolute; 
+        position: absolute;
     }
 
     .vliegtuigkw1c {
@@ -1138,6 +1141,16 @@ a:visited{
     {
         width: 70vwR;
     }
+    .heartbeat-tekst1, .heartbeat-tekst2, .arrow
+    {
+        margin-left: 42%;
+
+    }
+    .vliegtuigkw1c
+    {
+        margin-left: 36%;
+    }
+
 }
 /*    einde media query*/
 
