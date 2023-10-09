@@ -767,16 +767,16 @@ a:visited{
 
 /*pijltje*/
 .arrow{
-    width: 60%;
-    height: 60%;
-    margin-top: 250%;
-    position: static;
+    width: 40%;
+    height: auto;
+    top: 35%;
+    position: absolute;
 }
 
 /*vliegtuigkw1c*/
 .vliegtuigkw1c{
     position: absolute;
-    margin-top: 130%;
+    margin-top: -60%;
 }
 
 /*tekstvak kopje: "KW1C Unescoschool" + achtergrond*/
@@ -1042,7 +1042,6 @@ a:visited{
         animation-iteration-count: infinite;
         position: absolute;
         font-size: 25px;
-        margin-left: 37%;
         margin-top: 10%;
         cursor: pointer;
     }
@@ -1055,7 +1054,6 @@ a:visited{
         animation-iteration-count: infinite;
         position: absolute;
         font-size: 25px;
-        margin-left: 37%;
         margin-top: 12%;
         cursor: pointer;
     }
@@ -1100,18 +1098,15 @@ a:visited{
     }
 
     .arrow {
-        width: 25%;
-        height: 25%;
-        margin-top: 100%;
-        margin-left: 115%;
-        position: static;
-        visibility: visible;
+        width: 10%;
+        height: auto;
+        top: 35%;
+        position: absolute; 
     }
 
     .vliegtuigkw1c {
         position: absolute;
-        margin-top: 20%;
-        margin-left: 25%;
+        margin-top: -30%;
         width: 30%;
         cursor: pointer;
     }
