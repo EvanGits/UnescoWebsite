@@ -966,7 +966,7 @@ a:visited{
 
     .heartbeat-img
     {
-        margin-left: 10% !important;
+        margin-left: 630px !important;
         width: 100px;
         height: auto;
         margin-top: 100px;
@@ -1087,7 +1087,10 @@ a:visited{
         position: absolute;
         margin-top: 0%;
     }
-
+    #portaal1
+    {
+        margin-top: -100px;
+    }
     .veel-sterren {
         width: 25%;
         height: auto;
